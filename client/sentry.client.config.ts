@@ -6,9 +6,6 @@ import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
   dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
-  
-  // Add auth token if available
-  authToken: process.env.SENTRY_AUTH_TOKEN,
 
   // Add optional integrations for additional features
   integrations: [
