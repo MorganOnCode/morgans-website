@@ -1,113 +1,1582 @@
-[17:40:28.854] Running build in Washington, D.C., USA (East) – iad1
-[17:40:28.948] Cloning github.com/MorganOnCode/morgans-website (Branch: master, Commit: 6a52d21)
-[17:40:29.059] Previous build caches not available
-[17:40:29.271] Cloning completed: 322.000ms
-[17:40:29.535] Running "vercel build"
-[17:40:29.880] Vercel CLI 41.2.2
-[17:40:30.519] Installing dependencies...
-[17:40:33.633] npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
-[17:40:34.711] npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
-[17:40:35.224] npm warn deprecated domexception@4.0.0: Use your platform's native DOMException instead
-[17:40:35.564] npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
-[17:40:35.621] npm warn deprecated @types/stripe@8.0.417: This is a stub types definition. stripe provides its own type definitions, so you do not need this installed.
-[17:40:35.677] npm warn deprecated @types/testing-library__react@10.2.0: This is a stub types definition. testing-library__react provides its own type definitions, so you do not need this installed.
-[17:40:37.026] npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
-[17:40:37.066] npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
-[17:40:37.538] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-[17:40:37.645] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-[17:40:37.795] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-[17:40:38.017] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-[17:40:38.672] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-[17:40:41.557] npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
-[17:40:49.900] 
-[17:40:49.900] added 1240 packages in 19s
-[17:40:49.900] 
-[17:40:49.900] 196 packages are looking for funding
-[17:40:49.900]   run `npm fund` for details
-[17:40:49.980] Running "npm run vercel-build"
-[17:40:50.094] 
-[17:40:50.094] > cursor-dev-kit@0.1.0 vercel-build
-[17:40:50.094] > npm run build
-[17:40:50.094] 
-[17:40:50.203] 
-[17:40:50.203] > cursor-dev-kit@0.1.0 build
-[17:40:50.203] > next build
-[17:40:50.203] 
-[17:40:50.980] Attention: Next.js now collects completely anonymous telemetry regarding usage.
-[17:40:50.980] This information is used to shape Next.js' roadmap and prioritize features.
-[17:40:50.980] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
-[17:40:50.980] https://nextjs.org/telemetry
-[17:40:50.980] 
-[17:40:51.036]   ▲ Next.js 15.0.0
-[17:40:51.036]   - Experiments (use with caution):
-[17:40:51.036]     · clientTraceMetadata
-[17:40:51.036] 
-[17:40:51.158]    Creating an optimized production build ...
-[17:40:51.677] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:40:51.678] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:40:51.679] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:40:51.679] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:40:51.742] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:40:51.746] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:41:15.690] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:15.690] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:15.692] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:15.693] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:15.720] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:41:15.724] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:41:19.848] <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (242kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
-[17:41:20.010] [@sentry/nextjs - Client] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
-[17:41:20.019] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:41:20.021] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
-[17:41:29.900]  ✓ Compiled successfully
-[17:41:29.904]    Linting and checking validity of types ...
-[17:41:33.539] 
-[17:41:33.539] ./app/(website)/layout.tsx
-[17:41:33.540] 2:10  Warning: 'CommandMenu' is defined but never used.  no-unused-vars
-[17:41:33.540] 
-[17:41:33.540] ./app/actions/subscribe.ts
-[17:41:33.540] 10:6  Warning: 'SubscribeFormData' is defined but never used.  no-unused-vars
-[17:41:33.541] 
-[17:41:33.541] ./components/EmotionWheel.tsx
-[17:41:33.541] 94:9  Warning: The 'resetAll' function makes the dependencies of useEffect Hook (at line 132) change on every render. To fix this, wrap the definition of 'resetAll' in its own useCallback() Hook.  react-hooks/exhaustive-deps
-[17:41:33.541] 188:9  Warning: 'resetZoom' is assigned a value but never used.  no-unused-vars
-[17:41:33.541] 
-[17:41:33.541] ./components/ProfileImageUpload.tsx
-[17:41:33.541] 4:10  Warning: 'Button' is defined but never used.  no-unused-vars
-[17:41:33.541] 
-[17:41:33.541] ./components/homepage/HomePage.tsx
-[17:41:33.541] 6:10  Warning: 'Button' is defined but never used.  no-unused-vars
-[17:41:33.541] 
-[17:41:33.541] ./components/ui/carousel.tsx
-[17:41:33.542] 21:13  Warning: 'api' is defined but never used.  no-unused-vars
-[17:41:33.542] 
-[17:41:33.542] ./components/ui/sidebar.tsx
-[17:41:33.542] 32:13  Warning: 'open' is defined but never used.  no-unused-vars
-[17:41:33.542] 34:19  Warning: 'open' is defined but never used.  no-unused-vars
-[17:41:33.542] 56:21  Warning: 'open' is defined but never used.  no-unused-vars
-[17:41:33.542] 79:27  Warning: 'value' is defined but never used.  no-unused-vars
-[17:41:33.542] 
-[17:41:33.542] ./components/website-layout/Header.tsx
-[17:41:33.542] 12:10  Warning: 'CTALogin' is defined but never used.  no-unused-vars
-[17:41:33.542] 
-[17:41:33.542] ./lib/withToast.ts
-[17:41:33.542] 20:44  Warning: 'args' is defined but never used.  no-unused-vars
-[17:41:33.542] 
-[17:41:33.542] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
-[17:41:39.987] Failed to compile.
-[17:41:39.988] 
-[17:41:39.988] ./sentry.client.config.ts:11:3
-[17:41:39.988] Type error: Object literal may only specify known properties, and 'authToken' does not exist in type 'Options<BaseTransportOptions> | BrowserOptions | NodeOptions | VercelEdgeOptions'.
-[17:41:39.988] 
-[17:41:39.988] [0m [90m  9 |[39m   [0m
-[17:41:39.988] [0m [90m 10 |[39m   [90m// Add auth token if available[39m[0m
-[17:41:39.988] [0m[31m[1m>[22m[39m[90m 11 |[39m   authToken[33m:[39m process[33m.[39menv[33m.[39m[33mSENTRY_AUTH_TOKEN[39m[33m,[39m[0m
-[17:41:39.988] [0m [90m    |[39m   [31m[1m^[22m[39m[0m
-[17:41:39.988] [0m [90m 12 |[39m[0m
-[17:41:39.988] [0m [90m 13 |[39m   [90m// Add optional integrations for additional features[39m[0m
-[17:41:39.988] [0m [90m 14 |[39m   integrations[33m:[39m [[0m
-[17:41:40.131] Error: Command "npm run vercel-build" exited with 1
-[17:41:40.514] 
+[17:47:31.800] Running build in Washington, D.C., USA (East) – iad1
+[17:47:32.345] Cloning github.com/MorganOnCode/morgans-website (Branch: master, Commit: d724716)
+[17:47:32.359] Skipping build cache, deployment was triggered without cache.
+[17:47:32.666] Cloning completed: 321.000ms
+[17:47:32.927] Running "vercel build"
+[17:47:33.277] Vercel CLI 41.2.2
+[17:47:33.960] Installing dependencies...
+[17:47:37.239] npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[17:47:38.230] npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[17:47:38.769] npm warn deprecated domexception@4.0.0: Use your platform's native DOMException instead
+[17:47:39.135] npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+[17:47:39.197] npm warn deprecated @types/stripe@8.0.417: This is a stub types definition. stripe provides its own type definitions, so you do not need this installed.
+[17:47:39.238] npm warn deprecated @types/testing-library__react@10.2.0: This is a stub types definition. testing-library__react provides its own type definitions, so you do not need this installed.
+[17:47:40.471] npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+[17:47:40.531] npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+[17:47:41.029] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:47:41.134] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:47:41.343] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:47:41.574] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:47:42.170] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:47:44.927] npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[17:47:53.659] 
+[17:47:53.659] added 1240 packages in 19s
+[17:47:53.660] 
+[17:47:53.660] 196 packages are looking for funding
+[17:47:53.660]   run `npm fund` for details
+[17:47:54.130] Running "npm run vercel-build"
+[17:47:54.340] 
+[17:47:54.340] > cursor-dev-kit@0.1.0 vercel-build
+[17:47:54.340] > npm run build
+[17:47:54.340] 
+[17:47:54.453] 
+[17:47:54.454] > cursor-dev-kit@0.1.0 build
+[17:47:54.454] > next build
+[17:47:54.454] 
+[17:47:55.480] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[17:47:55.480] This information is used to shape Next.js' roadmap and prioritize features.
+[17:47:55.480] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[17:47:55.480] https://nextjs.org/telemetry
+[17:47:55.480] 
+[17:47:55.610]   ▲ Next.js 15.0.0
+[17:47:55.610]   - Experiments (use with caution):
+[17:47:55.610]     · clientTraceMetadata
+[17:47:55.610] 
+[17:47:55.887]    Creating an optimized production build ...
+[17:47:56.665] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:47:56.675] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:48:16.119] > Found 92 files
+[17:48:16.130] > Analyzing 92 sources
+[17:48:16.167] > Adding source map references
+[17:48:19.345] > Uploaded files to Sentry
+[17:48:19.469] > File upload complete (processing pending on server)
+[17:48:19.469] > Organization: morganic
+[17:48:19.469] > Project: morganschofieldcom
+[17:48:19.469] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:19.469] > Dist: None
+[17:48:19.469] > Upload type: artifact bundle
+[17:48:19.470] 
+[17:48:19.470] Source Map Upload Report
+[17:48:19.470]   Scripts
+[17:48:19.470]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:19.470]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:19.470]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:19.470]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:19.470]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js (sourcemap at page.js.map, debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:19.470]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:19.470]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js (sourcemap at page.js.map, debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:19.471]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:19.471]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:19.471]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:19.471]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js (sourcemap at page.js.map, debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:19.471]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:19.471]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js (sourcemap at page.js.map, debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:19.471]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:19.471]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:19.471]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:19.471]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:19.471]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:19.471]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js (sourcemap at page.js.map, debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:19.471]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:19.471]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js (sourcemap at page.js.map, debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:19.471]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js (sourcemap at page.js.map, debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:19.471]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js (sourcemap at page.js.map, debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:19.471]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:19.471]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:19.471]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:19.471]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:19.472]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:19.472]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:19.472]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js (sourcemap at page.js.map, debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:19.472]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:19.472]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:19.472]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js (sourcemap at page.js.map, debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:19.472]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:19.472]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:19.472]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:19.472]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:19.472]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:19.472]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js (sourcemap at 874.js.map, debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:19.472]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:19.472]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js (sourcemap at 781.js.map, debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:19.472]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:19.472]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:19.472]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js (sourcemap at page.js.map, debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:19.472]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:19.472]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:19.472]   Source Maps
+[17:48:19.472]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:19.472]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:19.472]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:19.472]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:19.472]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js.map (debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:19.473]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:19.473]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js.map (debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:19.473]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:19.473]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:19.473]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:19.473]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js.map (debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:19.473]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:19.473]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js.map (debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:19.473]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:19.473]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:19.473]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:19.473]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:19.473]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:19.473]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js.map (debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:19.473]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:19.473]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js.map (debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:19.473]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js.map (debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:19.473]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js.map (debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:19.473]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:19.473]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:19.474]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:19.474]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:19.474]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:19.474]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:19.474]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js.map (debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:19.474]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:19.474]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:19.474]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js.map (debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:19.474]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:19.474]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:19.474]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:19.474]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:19.474]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:19.474]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js.map (debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:19.474]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:19.474]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js.map (debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:19.474]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:19.474]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:19.474]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js.map (debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:19.474]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:19.474]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:19.478] [@sentry/nextjs - Node.js] Info: Successfully uploaded source maps to Sentry
+[17:48:20.214] > Found 92 files
+[17:48:20.226] > Analyzing 92 sources
+[17:48:20.264] > Adding source map references
+[17:48:21.805] > Bundled 92 files for upload
+[17:48:21.806] > Bundle ID: decf0bfa-6e8c-5161-98f1-9dbb1d595016
+[17:48:22.011] > Nothing to upload, all files are on the server
+[17:48:22.242] > File processing complete
+[17:48:22.242] > Organization: morganic
+[17:48:22.242] > Project: morganschofieldcom
+[17:48:22.242] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:22.242] > Dist: None
+[17:48:22.242] > Upload type: artifact bundle
+[17:48:22.244] 
+[17:48:22.244] Source Map Upload Report
+[17:48:22.244]   Scripts
+[17:48:22.244]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:22.244]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:22.244]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:22.244]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:22.244]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js (sourcemap at page.js.map, debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:22.244]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:22.244]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js (sourcemap at page.js.map, debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:22.244]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:22.244]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:22.244]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:22.244]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js (sourcemap at page.js.map, debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:22.244]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:22.244]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js (sourcemap at page.js.map, debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:22.244]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:22.244]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:22.244]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:22.244]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:22.244]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:22.244]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js (sourcemap at page.js.map, debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:22.244]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:22.244]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js (sourcemap at page.js.map, debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:22.244]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js (sourcemap at page.js.map, debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:22.245]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js (sourcemap at page.js.map, debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:22.245]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:22.245]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:22.245]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:22.245]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:22.245]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:22.245]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:22.245]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js (sourcemap at page.js.map, debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:22.245]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:22.245]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:22.245]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js (sourcemap at page.js.map, debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:22.245]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:22.245]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:22.245]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:22.245]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:22.245]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:22.246]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js (sourcemap at 874.js.map, debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:22.246]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:22.246]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js (sourcemap at 781.js.map, debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:22.246]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:22.246]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:22.246]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js (sourcemap at page.js.map, debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:22.246]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:22.246]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:22.246]   Source Maps
+[17:48:22.246]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:22.246]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:22.246]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:22.246]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:22.247]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js.map (debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:22.247]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:22.247]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js.map (debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:22.247]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:22.247]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:22.247]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:22.247]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js.map (debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:22.247]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:22.247]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js.map (debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:22.247]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:22.247]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:22.247]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:22.247]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:22.247]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:22.247]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js.map (debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:22.247]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:22.247]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js.map (debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:22.247]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js.map (debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:22.248]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js.map (debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:22.248]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:22.248]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:22.248]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:22.248]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:22.248]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:22.248]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:22.248]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js.map (debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:22.248]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:22.248]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:22.248]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js.map (debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:22.248]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:22.248]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:22.248]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:22.248]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:22.248]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:22.248]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js.map (debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:22.248]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:22.248]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js.map (debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:22.248]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:22.248]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:22.248]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js.map (debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:22.248]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:22.248]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:22.250] [@sentry/nextjs - Node.js] Info: Successfully uploaded source maps to Sentry
+[17:48:27.436] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:48:27.437] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:48:30.244] > Found 98 files
+[17:48:30.256] > Analyzing 98 sources
+[17:48:30.296] > Adding source map references
+[17:48:31.950] > Bundled 98 files for upload
+[17:48:31.950] > Bundle ID: c625d247-c350-5906-b898-9735a3f6f2af
+[17:48:33.554] > Uploaded files to Sentry
+[17:48:33.821] > File upload complete (processing pending on server)
+[17:48:33.822] > Organization: morganic
+[17:48:33.822] > Project: morganschofieldcom
+[17:48:33.822] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:33.822] > Dist: None
+[17:48:33.822] > Upload type: artifact bundle
+[17:48:33.823] 
+[17:48:33.823] Source Map Upload Report
+[17:48:33.823]   Scripts
+[17:48:33.823]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:33.823]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:33.823]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:33.823]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:33.823]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js (sourcemap at page.js.map, debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:33.823]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:33.823]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js (sourcemap at page.js.map, debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:33.824]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:33.824]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:33.824]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:33.824]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js (sourcemap at page.js.map, debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:33.824]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:33.824]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js (sourcemap at page.js.map, debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:33.824]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:33.824]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:33.824]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:33.824]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:33.824]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:33.824]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js (sourcemap at page.js.map, debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:33.824]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js (sourcemap at edge-runtime-webpack.js.map, debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:48:33.824]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:33.824]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js (sourcemap at page.js.map, debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:33.824]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js (sourcemap at page.js.map, debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:33.824]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js (sourcemap at page.js.map, debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:33.824]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:33.824]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:33.824]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:33.824]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:33.824]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:33.824]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:33.824]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js (sourcemap at page.js.map, debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:33.824]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:33.824]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:33.824]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js (sourcemap at page.js.map, debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:33.824]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:33.824]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:33.824]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:33.824]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js (sourcemap at edge-instrumentation.js.map, debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:48:33.824]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:33.824]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:33.825]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js (sourcemap at 874.js.map, debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:33.825]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:33.825]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js (sourcemap at 781.js.map, debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:33.826]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:33.826]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:33.826]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js (sourcemap at middleware.js.map, debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:48:33.826]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js (sourcemap at page.js.map, debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:33.826]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:33.826]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:33.826]   Source Maps
+[17:48:33.826]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:33.826]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:33.826]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:33.826]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:33.826]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js.map (debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:33.826]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:33.826]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js.map (debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:33.826]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:33.826]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:33.826]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:33.826]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js.map (debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:33.826]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:33.826]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js.map (debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:33.826]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:33.826]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:33.827]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:33.827]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:33.827]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:33.827]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js.map (debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:33.827]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js.map (debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:48:33.827]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:33.827]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js.map (debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:33.827]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js.map (debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:33.827]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js.map (debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:33.827]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:33.827]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:33.827]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:33.827]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:33.827]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:33.827]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:33.827]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js.map (debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:33.827]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:33.827]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:33.827]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js.map (debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:33.827]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:33.827]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:33.827]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:33.827]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js.map (debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:48:33.827]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:33.827]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:33.827]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js.map (debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:33.827]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:33.827]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js.map (debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:33.827]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:33.827]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:33.827]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js.map (debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:48:33.827]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js.map (debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:33.828]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:33.828]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:33.832] [@sentry/nextjs - Edge] Info: Successfully uploaded source maps to Sentry
+[17:48:34.346] > Found 98 files
+[17:48:34.358] > Analyzing 98 sources
+[17:48:34.398] > Adding source map references
+[17:48:36.043] > Bundled 98 files for upload
+[17:48:36.043] > Bundle ID: c625d247-c350-5906-b898-9735a3f6f2af
+[17:48:36.245] > Nothing to upload, all files are on the server
+[17:48:36.400] > File processing complete
+[17:48:36.400] > Organization: morganic
+[17:48:36.400] > Project: morganschofieldcom
+[17:48:36.400] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:36.401] > Dist: None
+[17:48:36.401] > Upload type: artifact bundle
+[17:48:36.402] 
+[17:48:36.402] Source Map Upload Report
+[17:48:36.402]   Scripts
+[17:48:36.402]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:36.402]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:36.402]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:36.402]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:36.402]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js (sourcemap at page.js.map, debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:36.402]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:36.402]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js (sourcemap at page.js.map, debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:36.402]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:36.402]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:36.402]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:36.402]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js (sourcemap at page.js.map, debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:36.402]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:36.403]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js (sourcemap at page.js.map, debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:36.403]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:36.404]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:36.404]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:36.404]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:36.404]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:36.404]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js (sourcemap at page.js.map, debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:36.404]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js (sourcemap at edge-runtime-webpack.js.map, debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:48:36.404]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:36.404]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js (sourcemap at page.js.map, debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:36.404]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js (sourcemap at page.js.map, debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:36.404]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js (sourcemap at page.js.map, debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:36.404]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:36.404]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:36.404]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:36.404]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:36.404]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:36.404]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:36.404]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js (sourcemap at page.js.map, debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:36.404]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:36.404]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:36.404]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js (sourcemap at page.js.map, debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:36.404]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:36.404]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:36.404]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:36.404]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js (sourcemap at edge-instrumentation.js.map, debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:48:36.404]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:36.404]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:36.404]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js (sourcemap at 874.js.map, debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:36.404]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:36.404]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js (sourcemap at 781.js.map, debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:36.404]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:36.404]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:36.404]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js (sourcemap at middleware.js.map, debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:48:36.405]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js (sourcemap at page.js.map, debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:36.405]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:36.405]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:36.405]   Source Maps
+[17:48:36.405]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:48:36.405]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:48:36.405]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:48:36.405]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:48:36.405]     ~/18bd6062-94a7-4c3d-937a-73af69d455b6-16.js.map (debug id 18bd6062-94a7-4c3d-937a-73af69d455b6)
+[17:48:36.405]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:48:36.405]     ~/1e01a3a1-9aec-45c9-954b-aeeadc090f32-10.js.map (debug id 1e01a3a1-9aec-45c9-954b-aeeadc090f32)
+[17:48:36.405]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:48:36.405]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:48:36.405]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:48:36.405]     ~/2bd36d35-38c1-4149-a74a-9f4606e7f0c2-2.js.map (debug id 2bd36d35-38c1-4149-a74a-9f4606e7f0c2)
+[17:48:36.405]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:48:36.405]     ~/3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f-14.js.map (debug id 3e4bb7b1-7ecb-4084-8d9c-b842dcbab36f)
+[17:48:36.405]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:48:36.405]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:48:36.405]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:48:36.405]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:48:36.405]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:48:36.405]     ~/524fddd5-65fc-4833-a176-424d0f5be62a-9.js.map (debug id 524fddd5-65fc-4833-a176-424d0f5be62a)
+[17:48:36.405]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js.map (debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:48:36.405]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:48:36.405]     ~/598bf033-7090-4c38-aa8e-041d644c5ba1-13.js.map (debug id 598bf033-7090-4c38-aa8e-041d644c5ba1)
+[17:48:36.405]     ~/5b7d01d9-6097-45e4-aaa3-87de0ee64a30-1.js.map (debug id 5b7d01d9-6097-45e4-aaa3-87de0ee64a30)
+[17:48:36.405]     ~/5df66b51-00c6-426f-9c66-e9bdb77ef3a1-18.js.map (debug id 5df66b51-00c6-426f-9c66-e9bdb77ef3a1)
+[17:48:36.405]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:48:36.405]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:48:36.405]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:48:36.405]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:48:36.405]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:48:36.405]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:48:36.405]     ~/78cabddc-30b7-488b-a725-ab65cd237ae2-19.js.map (debug id 78cabddc-30b7-488b-a725-ab65cd237ae2)
+[17:48:36.405]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:48:36.406]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:48:36.406]     ~/9c489062-9238-4dfa-918d-9a28f6cd01c2-0.js.map (debug id 9c489062-9238-4dfa-918d-9a28f6cd01c2)
+[17:48:36.406]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:48:36.406]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:48:36.406]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:48:36.406]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js.map (debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:48:36.406]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:48:36.406]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:48:36.406]     ~/ba260f50-891d-4ec1-ae3a-c3a1e0513e84-38.js.map (debug id ba260f50-891d-4ec1-ae3a-c3a1e0513e84)
+[17:48:36.406]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:48:36.406]     ~/bac74b3b-d759-4fd3-9108-923a9cc10449-37.js.map (debug id bac74b3b-d759-4fd3-9108-923a9cc10449)
+[17:48:36.406]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:48:36.406]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:48:36.406]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js.map (debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:48:36.406]     ~/d936189d-daef-444a-ac8c-8d1a068ef910-17.js.map (debug id d936189d-daef-444a-ac8c-8d1a068ef910)
+[17:48:36.406]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:48:36.406]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:48:36.409] [@sentry/nextjs - Edge] Info: Successfully uploaded source maps to Sentry
+[17:48:38.326] <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (242kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+[17:48:38.496] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:48:38.497] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:48:45.659] > Found 74 files
+[17:48:45.663] > Analyzing 74 sources
+[17:48:45.674] > Adding source map references
+[17:48:46.223] > Bundled 74 files for upload
+[17:48:46.223] > Bundle ID: 298a5b27-7213-5d5b-96e7-8b91da16ba9c
+[17:48:46.695] > Uploaded files to Sentry
+[17:48:47.094] > File upload complete (processing pending on server)
+[17:48:47.094] > Organization: morganic
+[17:48:47.094] > Project: morganschofieldcom
+[17:48:47.095] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:47.095] > Dist: None
+[17:48:47.095] > Upload type: artifact bundle
+[17:48:47.095] 
+[17:48:47.095] Source Map Upload Report
+[17:48:47.095]   Scripts
+[17:48:47.095]     ~/09d84c45-18bd-47b9-92cc-c5973d122045-24.js (no sourcemap found, debug id 09d84c45-18bd-47b9-92cc-c5973d122045)
+[17:48:47.095]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/09d84c45-18bd-47b9-92cc-c5973d122045-24.js)
+[17:48:47.095]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js (sourcemap at 13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js.map, debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:48:47.095]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js (sourcemap at 169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js.map, debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:48:47.095]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js (sourcemap at 1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js.map, debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:48:47.095]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js (sourcemap at 30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js.map, debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:48:47.095]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js (sourcemap at 3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js.map, debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:48:47.095]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js (sourcemap at 3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js.map, debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:48:47.095]     ~/44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff-37.js (no sourcemap found, debug id 44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff)
+[17:48:47.095]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff-37.js)
+[17:48:47.095]     ~/46099c96-e135-4a58-81aa-8c65ec570d9f-19.js (no sourcemap found, debug id 46099c96-e135-4a58-81aa-8c65ec570d9f)
+[17:48:47.095]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/46099c96-e135-4a58-81aa-8c65ec570d9f-19.js)
+[17:48:47.095]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js (sourcemap at 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js.map, debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:48:47.095]     ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js (no sourcemap found, debug id 4f07c389-18f8-4867-9c1a-4631552913c6)
+[17:48:47.095]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js)
+[17:48:47.095]     ~/53937bcf-ee14-4c15-93f4-e9e90207b0b6-36.js (no sourcemap found, debug id 53937bcf-ee14-4c15-93f4-e9e90207b0b6)
+[17:48:47.095]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/53937bcf-ee14-4c15-93f4-e9e90207b0b6-36.js)
+[17:48:47.095]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js (sourcemap at 55683238-cc76-49c5-90e0-0e4741c5108d-8.js.map, debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:48:47.096]     ~/5d659b98-a52d-4002-a10d-6911aa154a5c-22.js (no sourcemap found, debug id 5d659b98-a52d-4002-a10d-6911aa154a5c)
+[17:48:47.096]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5d659b98-a52d-4002-a10d-6911aa154a5c-22.js)
+[17:48:47.096]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js (sourcemap at 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js.map, debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:48:47.096]     ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js (no sourcemap found, debug id 5e86f540-b48a-4c0e-8690-c1418854fa55)
+[17:48:47.096]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js)
+[17:48:47.096]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js (sourcemap at 61c48378-8e36-45cd-aab0-970fb6b520c1-6.js.map, debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:48:47.096]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js (sourcemap at 68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js.map, debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:48:47.096]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js (sourcemap at 69323112-79df-4432-95fb-fb0bf6083108-9.js.map, debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:48:47.096]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js (sourcemap at 7094a194-c4c9-4b12-8715-cc39a0603421-10.js.map, debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:48:47.096]     ~/72cd0ab1-28af-4f98-8580-73ee70f7bb7e-20.js (no sourcemap found, debug id 72cd0ab1-28af-4f98-8580-73ee70f7bb7e)
+[17:48:47.096]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/72cd0ab1-28af-4f98-8580-73ee70f7bb7e-20.js)
+[17:48:47.096]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js (sourcemap at 72d3117f-9872-48f0-8bf7-ad264cf82893-15.js.map, debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:48:47.096]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js (sourcemap at 77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js.map, debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:48:47.096]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js (sourcemap at 79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js.map, debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:48:47.096]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js (sourcemap at 7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js.map, debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:48:47.096]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js (sourcemap at 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js.map, debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:48:47.096]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js (sourcemap at 80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js.map, debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:48:47.096]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js (sourcemap at 85611846-6b09-4914-8b77-0c70f1ba5b85-31.js.map, debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:48:47.096]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js (sourcemap at 86e3d1ac-94b2-40a6-b224-0517256b3523-35.js.map, debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:48:47.097]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js (sourcemap at 9deaa815-1534-4942-a613-14a462ed51b6-33.js.map, debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:48:47.097]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js (sourcemap at a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js.map, debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:48:47.097]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js (sourcemap at aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js.map, debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:48:47.097]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js (sourcemap at b08606e3-9bee-422f-9e79-7129b361d328-3.js.map, debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:48:47.097]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js (sourcemap at b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js.map, debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:48:47.097]     ~/b9a1d8a2-2812-4c26-bfb8-a49c69c83efe-27.js (no sourcemap found, debug id b9a1d8a2-2812-4c26-bfb8-a49c69c83efe)
+[17:48:47.097]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b9a1d8a2-2812-4c26-bfb8-a49c69c83efe-27.js)
+[17:48:47.097]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js (sourcemap at c1864610-d142-452f-adef-85c8e477cefb-1.js.map, debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:48:47.097]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js (sourcemap at c607fe31-c563-49ec-95fb-3774862be116-17.js.map, debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:48:47.097]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js (sourcemap at ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js.map, debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:48:47.097]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js (sourcemap at ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js.map, debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:48:47.097]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js (sourcemap at e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js.map, debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:48:47.097]     ~/f9954d57-211a-4f5d-b056-30a98cc4caa3-23.js (no sourcemap found, debug id f9954d57-211a-4f5d-b056-30a98cc4caa3)
+[17:48:47.097]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/f9954d57-211a-4f5d-b056-30a98cc4caa3-23.js)
+[17:48:47.097]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js (sourcemap at ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js.map, debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:48:47.097]   Source Maps
+[17:48:47.097]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js.map (debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:48:47.097]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js.map (debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:48:47.097]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js.map (debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:48:47.097]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js.map (debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:48:47.097]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js.map (debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:48:47.097]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js.map (debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:48:47.097]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js.map (debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:48:47.098]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js.map (debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:48:47.098]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js.map (debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:48:47.098]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js.map (debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:48:47.098]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js.map (debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:48:47.098]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js.map (debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:48:47.099]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js.map (debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:48:47.099]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js.map (debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:48:47.099]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js.map (debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:48:47.099]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js.map (debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:48:47.099]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js.map (debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:48:47.099]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js.map (debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:48:47.099]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js.map (debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:48:47.099]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js.map (debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:48:47.099]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js.map (debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:48:47.099]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js.map (debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:48:47.099]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js.map (debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:48:47.099]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js.map (debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:48:47.099]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js.map (debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:48:47.099]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js.map (debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:48:47.099]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js.map (debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:48:47.099]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js.map (debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:48:47.099]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js.map (debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:48:47.099]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js.map (debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:48:47.100]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js.map (debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:48:47.100]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js.map (debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:48:47.101] [@sentry/nextjs - Client] Info: Successfully uploaded source maps to Sentry
+[17:48:47.318] > Found 42 files
+[17:48:47.319] > Analyzing 42 sources
+[17:48:47.320] > Adding source map references
+[17:48:47.635] > Bundled 42 files for upload
+[17:48:47.635] > Bundle ID: 149b1f09-7f80-57fc-abe7-daf841a30f0f
+[17:48:48.026] > Uploaded files to Sentry
+[17:48:48.194] > File upload complete (processing pending on server)
+[17:48:48.194] > Organization: morganic
+[17:48:48.194] > Project: morganschofieldcom
+[17:48:48.194] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:48:48.194] > Dist: None
+[17:48:48.194] > Upload type: artifact bundle
+[17:48:48.194] 
+[17:48:48.194] Source Map Upload Report
+[17:48:48.194]   Scripts
+[17:48:48.194]     ~/09d84c45-18bd-47b9-92cc-c5973d122045-24.js (no sourcemap found, debug id 09d84c45-18bd-47b9-92cc-c5973d122045)
+[17:48:48.194]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/09d84c45-18bd-47b9-92cc-c5973d122045-24.js)
+[17:48:48.194]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js (no sourcemap found, debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:48:48.194]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js)
+[17:48:48.194]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js (no sourcemap found, debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:48:48.194]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js)
+[17:48:48.194]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js (no sourcemap found, debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:48:48.194]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js)
+[17:48:48.194]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js (no sourcemap found, debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:48:48.194]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js)
+[17:48:48.195]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js (no sourcemap found, debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js)
+[17:48:48.195]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js (no sourcemap found, debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js)
+[17:48:48.195]     ~/44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff-37.js (no sourcemap found, debug id 44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/44651a1e-46e8-4e2a-8ac9-6f9f55bb9eff-37.js)
+[17:48:48.195]     ~/46099c96-e135-4a58-81aa-8c65ec570d9f-19.js (no sourcemap found, debug id 46099c96-e135-4a58-81aa-8c65ec570d9f)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/46099c96-e135-4a58-81aa-8c65ec570d9f-19.js)
+[17:48:48.195]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js (no sourcemap found, debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js)
+[17:48:48.195]     ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js (no sourcemap found, debug id 4f07c389-18f8-4867-9c1a-4631552913c6)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js)
+[17:48:48.195]     ~/53937bcf-ee14-4c15-93f4-e9e90207b0b6-36.js (no sourcemap found, debug id 53937bcf-ee14-4c15-93f4-e9e90207b0b6)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/53937bcf-ee14-4c15-93f4-e9e90207b0b6-36.js)
+[17:48:48.195]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js (no sourcemap found, debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js)
+[17:48:48.195]     ~/5d659b98-a52d-4002-a10d-6911aa154a5c-22.js (no sourcemap found, debug id 5d659b98-a52d-4002-a10d-6911aa154a5c)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5d659b98-a52d-4002-a10d-6911aa154a5c-22.js)
+[17:48:48.195]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js (no sourcemap found, debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:48:48.195]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js)
+[17:48:48.195]     ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js (no sourcemap found, debug id 5e86f540-b48a-4c0e-8690-c1418854fa55)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js)
+[17:48:48.196]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js (no sourcemap found, debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js)
+[17:48:48.196]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js (no sourcemap found, debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js)
+[17:48:48.196]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js (no sourcemap found, debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/69323112-79df-4432-95fb-fb0bf6083108-9.js)
+[17:48:48.196]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js (no sourcemap found, debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js)
+[17:48:48.196]     ~/72cd0ab1-28af-4f98-8580-73ee70f7bb7e-20.js (no sourcemap found, debug id 72cd0ab1-28af-4f98-8580-73ee70f7bb7e)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/72cd0ab1-28af-4f98-8580-73ee70f7bb7e-20.js)
+[17:48:48.196]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js (no sourcemap found, debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js)
+[17:48:48.196]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js (no sourcemap found, debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:48:48.196]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js)
+[17:48:48.196]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js (no sourcemap found, debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:48:48.197]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js)
+[17:48:48.197]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js (no sourcemap found, debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:48:48.197]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js)
+[17:48:48.197]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js (no sourcemap found, debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:48:48.197]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js)
+[17:48:48.197]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js (no sourcemap found, debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:48:48.197]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js)
+[17:48:48.197]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js (no sourcemap found, debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:48:48.197]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js)
+[17:48:48.197]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js (no sourcemap found, debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js)
+[17:48:48.198]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js (no sourcemap found, debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js)
+[17:48:48.198]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js (no sourcemap found, debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js)
+[17:48:48.198]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js (no sourcemap found, debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js)
+[17:48:48.198]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js (no sourcemap found, debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js)
+[17:48:48.198]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js (no sourcemap found, debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js)
+[17:48:48.198]     ~/b9a1d8a2-2812-4c26-bfb8-a49c69c83efe-27.js (no sourcemap found, debug id b9a1d8a2-2812-4c26-bfb8-a49c69c83efe)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b9a1d8a2-2812-4c26-bfb8-a49c69c83efe-27.js)
+[17:48:48.198]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js (no sourcemap found, debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/c1864610-d142-452f-adef-85c8e477cefb-1.js)
+[17:48:48.198]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js (no sourcemap found, debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/c607fe31-c563-49ec-95fb-3774862be116-17.js)
+[17:48:48.198]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js (no sourcemap found, debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js)
+[17:48:48.198]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js (no sourcemap found, debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:48:48.198]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js)
+[17:48:48.199]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js (no sourcemap found, debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:48:48.199]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js)
+[17:48:48.199]     ~/f9954d57-211a-4f5d-b056-30a98cc4caa3-23.js (no sourcemap found, debug id f9954d57-211a-4f5d-b056-30a98cc4caa3)
+[17:48:48.199]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/f9954d57-211a-4f5d-b056-30a98cc4caa3-23.js)
+[17:48:48.199]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js (no sourcemap found, debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:48:48.199]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js)
+[17:48:48.201] [@sentry/nextjs - Client] Info: Successfully uploaded source maps to Sentry
+[17:48:51.218]  ✓ Compiled successfully
+[17:48:51.223]    Linting and checking validity of types ...
+[17:48:54.775] 
+[17:48:54.775] ./app/(website)/layout.tsx
+[17:48:54.775] 2:10  Warning: 'CommandMenu' is defined but never used.  no-unused-vars
+[17:48:54.775] 
+[17:48:54.775] ./app/actions/subscribe.ts
+[17:48:54.776] 10:6  Warning: 'SubscribeFormData' is defined but never used.  no-unused-vars
+[17:48:54.776] 
+[17:48:54.776] ./components/EmotionWheel.tsx
+[17:48:54.776] 94:9  Warning: The 'resetAll' function makes the dependencies of useEffect Hook (at line 132) change on every render. To fix this, wrap the definition of 'resetAll' in its own useCallback() Hook.  react-hooks/exhaustive-deps
+[17:48:54.776] 188:9  Warning: 'resetZoom' is assigned a value but never used.  no-unused-vars
+[17:48:54.776] 
+[17:48:54.776] ./components/ProfileImageUpload.tsx
+[17:48:54.776] 4:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:48:54.776] 
+[17:48:54.776] ./components/homepage/HomePage.tsx
+[17:48:54.776] 6:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:48:54.776] 
+[17:48:54.776] ./components/ui/carousel.tsx
+[17:48:54.777] 21:13  Warning: 'api' is defined but never used.  no-unused-vars
+[17:48:54.777] 
+[17:48:54.777] ./components/ui/sidebar.tsx
+[17:48:54.777] 32:13  Warning: 'open' is defined but never used.  no-unused-vars
+[17:48:54.777] 34:19  Warning: 'open' is defined but never used.  no-unused-vars
+[17:48:54.778] 56:21  Warning: 'open' is defined but never used.  no-unused-vars
+[17:48:54.778] 79:27  Warning: 'value' is defined but never used.  no-unused-vars
+[17:48:54.778] 
+[17:48:54.778] ./components/website-layout/Header.tsx
+[17:48:54.779] 12:10  Warning: 'CTALogin' is defined but never used.  no-unused-vars
+[17:48:54.779] 
+[17:48:54.779] ./lib/withToast.ts
+[17:48:54.779] 20:44  Warning: 'args' is defined but never used.  no-unused-vars
+[17:48:54.780] 
+[17:48:54.780] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[17:49:01.103]    Collecting page data ...
+[17:49:05.275]    Generating static pages (0/22) ...
+[17:49:05.879]    Generating static pages (5/22) 
+[17:49:06.214]    Generating static pages (10/22) 
+[17:49:06.214]    Generating static pages (16/22) 
+[17:49:06.442]  ✓ Generating static pages (22/22)
+[17:49:06.764]    Finalizing page optimization ...
+[17:49:06.770]    Collecting build traces ...
+[17:49:12.594] 
+[17:49:12.605] Route (app)                              Size     First Load JS
+[17:49:12.605] ┌ ○ /                                    4.37 kB         258 kB
+[17:49:12.605] ├ ○ /_not-found                          340 B           202 kB
+[17:49:12.605] ├ ƒ /api/auth/callback                   340 B           202 kB
+[17:49:12.606] ├ ƒ /api/sentry-example-api              341 B           203 kB
+[17:49:12.606] ├ ƒ /api/stripe/webhook                  341 B           203 kB
+[17:49:12.606] ├ ƒ /api/update-profile-image            341 B           203 kB
+[17:49:12.606] ├ ƒ /api/upload-profile-image            340 B           202 kB
+[17:49:12.606] ├ ○ /apple-icon.png                      0 B                0 B
+[17:49:12.606] ├ ƒ /dashboard                           340 B           202 kB
+[17:49:12.606] ├ ○ /emotions                            3.51 kB         246 kB
+[17:49:12.606] ├ ○ /essays                              381 B           243 kB
+[17:49:12.606] ├ ○ /icon.png                            0 B                0 B
+[17:49:12.606] ├ ○ /login                               10.6 kB         260 kB
+[17:49:12.606] ├ ƒ /onboarding                          9.66 kB         219 kB
+[17:49:12.606] ├ ○ /opengraph-image.png                 0 B                0 B
+[17:49:12.606] ├ ○ /our-privacy-policy                  340 B           202 kB
+[17:49:12.606] ├ ○ /our-terms-of-service                340 B           202 kB
+[17:49:12.606] ├ ○ /profile                             4.01 kB         295 kB
+[17:49:12.606] ├ ○ /sentry-example-page                 2.09 kB         204 kB
+[17:49:12.606] └ ○ /twitter-image.png                   0 B                0 B
+[17:49:12.606] + First Load JS shared by all            202 kB
+[17:49:12.606]   ├ chunks/4bd1b696-81da0ac7da040259.js  52.8 kB
+[17:49:12.606]   ├ chunks/52774a7f-e959ffcd6306e350.js  36.4 kB
+[17:49:12.606]   ├ chunks/602-92ce50bac7957991.js       110 kB
+[17:49:12.606]   └ other shared chunks (total)          2.58 kB
+[17:49:12.606] 
+[17:49:12.606] 
+[17:49:12.607] ƒ Middleware                             118 kB
+[17:49:12.607] 
+[17:49:12.607] ○  (Static)   prerendered as static content
+[17:49:12.607] ƒ  (Dynamic)  server-rendered on demand
+[17:49:12.607] 
+[17:49:12.680] 
+[17:49:12.681] > cursor-dev-kit@0.1.0 postbuild
+[17:49:12.681] > next-sitemap
+[17:49:12.681] 
+[17:49:12.764] ✨ [next-sitemap] Loading next-sitemap config: file:///vercel/path0/client/next-sitemap.config.js
+[17:49:12.770] ✅ [next-sitemap] Generation completed
+[17:49:12.771] ┌───────────────┬────────┐
+[17:49:12.771] │ (index)       │ Values │
+[17:49:12.771] ├───────────────┼────────┤
+[17:49:12.771] │ indexSitemaps │ 1      │
+[17:49:12.771] │ sitemaps      │ 1      │
+[17:49:12.771] └───────────────┴────────┘
+[17:49:12.771] -----------------------------------------------------
+[17:49:12.771]  SITEMAP INDICES 
+[17:49:12.771] -----------------------------------------------------
+[17:49:12.771] 
+[17:49:12.771]    ○ https://morganschofield.com/sitemap.xml
+[17:49:12.771] 
+[17:49:12.771] 
+[17:49:12.771] -----------------------------------------------------
+[17:49:12.771]  SITEMAPS 
+[17:49:12.771] -----------------------------------------------------
+[17:49:12.771] 
+[17:49:12.771]    ○ https://morganschofield.com/sitemap-0.xml
+[17:49:12.771] 
+[17:49:12.772] 
+[17:49:12.810] Running "npm run vercel-build"
+[17:49:12.915] 
+[17:49:12.915] > cursor-dev-kit@0.1.0 vercel-build
+[17:49:12.915] > npm run build
+[17:49:12.915] 
+[17:49:13.026] 
+[17:49:13.026] > cursor-dev-kit@0.1.0 build
+[17:49:13.026] > next build
+[17:49:13.026] 
+[17:49:13.835]   ▲ Next.js 15.0.0
+[17:49:13.835]   - Experiments (use with caution):
+[17:49:13.835]     · clientTraceMetadata
+[17:49:13.836] 
+[17:49:13.963]    Creating an optimized production build ...
+[17:49:14.542] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:14.547] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:20.804] > Found 92 files
+[17:49:20.815] > Analyzing 92 sources
+[17:49:20.852] > Adding source map references
+[17:49:22.443] > Bundled 92 files for upload
+[17:49:22.443] > Bundle ID: 422fb1ea-6b70-59e6-9871-7f55c0fd67c8
+[17:49:23.951] > Uploaded files to Sentry
+[17:49:24.147] > File upload complete (processing pending on server)
+[17:49:24.147] > Organization: morganic
+[17:49:24.147] > Project: morganschofieldcom
+[17:49:24.148] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:24.148] > Dist: None
+[17:49:24.148] > Upload type: artifact bundle
+[17:49:24.149] 
+[17:49:24.149] Source Map Upload Report
+[17:49:24.149]   Scripts
+[17:49:24.149]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:24.149]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:24.149]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:24.149]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:24.149]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:24.149]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js (sourcemap at page.js.map, debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:24.149]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:24.149]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:24.150]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:24.150]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js (sourcemap at 781.js.map, debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:24.150]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:24.150]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js (sourcemap at page.js.map, debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:24.150]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:24.150]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:24.150]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:24.150]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:24.150]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:24.150]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:24.150]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js (sourcemap at page.js.map, debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:24.150]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:24.150]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:24.150]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:24.150]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:24.151]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:24.151]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:24.151]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:24.151]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js (sourcemap at page.js.map, debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:24.151]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js (sourcemap at page.js.map, debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:24.151]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:24.151]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js (sourcemap at 874.js.map, debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:24.151]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:24.151]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js (sourcemap at page.js.map, debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:24.151]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:24.152]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:24.152]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:24.152]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:24.152]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:24.152]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js (sourcemap at page.js.map, debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:24.152]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:24.152]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:24.152]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js (sourcemap at page.js.map, debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:24.152]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js (sourcemap at page.js.map, debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:24.152]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js (sourcemap at page.js.map, debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:24.152]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js (sourcemap at page.js.map, debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:24.152]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:24.152]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:24.152]   Source Maps
+[17:49:24.152]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:24.152]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:24.152]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:24.152]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:24.152]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:24.152]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js.map (debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:24.152]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:24.152]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:24.152]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:24.152]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js.map (debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:24.153]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:24.153]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js.map (debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:24.153]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:24.153]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:24.153]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:24.153]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:24.153]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:24.153]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:24.153]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js.map (debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:24.153]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:24.153]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:24.153]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:24.153]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:24.153]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:24.153]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:24.153]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:24.153]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js.map (debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:24.153]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js.map (debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:24.153]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:24.153]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js.map (debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:24.153]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:24.153]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js.map (debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:24.153]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:24.153]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:24.153]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:24.153]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:24.154]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:24.154]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js.map (debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:24.154]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:24.154]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:24.154]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js.map (debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:24.154]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js.map (debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:24.154]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js.map (debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:24.154]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js.map (debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:24.154]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:24.154]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:24.158] [@sentry/nextjs - Node.js] Info: Successfully uploaded source maps to Sentry
+[17:49:24.875] > Found 92 files
+[17:49:24.886] > Analyzing 92 sources
+[17:49:24.925] > Adding source map references
+[17:49:26.490] > Bundled 92 files for upload
+[17:49:26.490] > Bundle ID: 422fb1ea-6b70-59e6-9871-7f55c0fd67c8
+[17:49:26.686] > Nothing to upload, all files are on the server
+[17:49:26.909] > File processing complete
+[17:49:26.909] > Organization: morganic
+[17:49:26.909] > Project: morganschofieldcom
+[17:49:26.909] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:26.909] > Dist: None
+[17:49:26.909] > Upload type: artifact bundle
+[17:49:26.910] 
+[17:49:26.910] Source Map Upload Report
+[17:49:26.910]   Scripts
+[17:49:26.910]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:26.910]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:26.910]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:26.910]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:26.910]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:26.910]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js (sourcemap at page.js.map, debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:26.910]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:26.910]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:26.910]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:26.911]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js (sourcemap at 781.js.map, debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:26.911]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:26.911]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js (sourcemap at page.js.map, debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:26.911]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:26.911]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:26.911]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:26.911]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:26.911]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:26.911]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:26.911]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js (sourcemap at page.js.map, debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:26.911]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:26.911]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:26.911]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:26.911]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:26.911]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:26.911]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:26.911]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:26.911]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js (sourcemap at page.js.map, debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:26.911]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js (sourcemap at page.js.map, debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:26.911]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:26.911]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js (sourcemap at 874.js.map, debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:26.911]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:26.911]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js (sourcemap at page.js.map, debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:26.911]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:26.911]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:26.911]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:26.911]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:26.911]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:26.911]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js (sourcemap at page.js.map, debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:26.912]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:26.912]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:26.912]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js (sourcemap at page.js.map, debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:26.912]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js (sourcemap at page.js.map, debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:26.912]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js (sourcemap at page.js.map, debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:26.912]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js (sourcemap at page.js.map, debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:26.912]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:26.912]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:26.912]   Source Maps
+[17:49:26.912]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:26.912]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:26.912]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:26.912]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:26.912]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:26.912]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js.map (debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:26.912]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:26.912]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-44.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:26.912]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:26.912]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js.map (debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:26.912]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:26.912]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js.map (debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:26.913]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-46.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:26.913]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:26.913]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:26.913]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:26.913]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:26.913]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:26.913]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js.map (debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:26.913]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:26.913]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-42.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:26.913]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:26.913]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:26.913]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-43.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:26.913]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:26.913]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:26.913]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js.map (debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:26.913]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js.map (debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:26.913]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:26.913]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js.map (debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:26.913]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:26.913]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js.map (debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:26.913]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:26.913]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:26.913]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:26.913]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:26.913]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:26.914]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js.map (debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:26.914]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:26.914]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:26.914]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js.map (debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:26.914]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js.map (debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:26.914]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js.map (debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:26.914]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js.map (debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:26.914]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:26.914]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-41.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:26.916] [@sentry/nextjs - Node.js] Info: Successfully uploaded source maps to Sentry
+[17:49:28.289] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:28.290] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:29.461] > Found 98 files
+[17:49:29.473] > Analyzing 98 sources
+[17:49:29.513] > Adding source map references
+[17:49:31.151] > Bundled 98 files for upload
+[17:49:31.151] > Bundle ID: c4c2d267-bdf7-5d63-9086-3acacbea9eb1
+[17:49:32.427] > Uploaded files to Sentry
+[17:49:32.536] > File upload complete (processing pending on server)
+[17:49:32.537] > Organization: morganic
+[17:49:32.537] > Project: morganschofieldcom
+[17:49:32.537] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:32.537] > Dist: None
+[17:49:32.537] > Upload type: artifact bundle
+[17:49:32.538] 
+[17:49:32.538] Source Map Upload Report
+[17:49:32.538]   Scripts
+[17:49:32.538]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:32.538]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:32.538]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:32.538]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:32.538]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:32.538]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js (sourcemap at page.js.map, debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:32.539]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:32.539]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:32.539]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:32.539]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js (sourcemap at 781.js.map, debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:32.539]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:32.539]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js (sourcemap at page.js.map, debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:32.539]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:32.539]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:32.539]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:32.539]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:32.539]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:32.539]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js (sourcemap at edge-runtime-webpack.js.map, debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:49:32.539]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:32.539]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js (sourcemap at page.js.map, debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:32.539]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:32.539]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:32.539]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:32.539]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:32.539]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:32.539]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:32.539]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:32.539]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js (sourcemap at page.js.map, debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:32.539]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js (sourcemap at page.js.map, debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:32.539]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:32.539]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js (sourcemap at 874.js.map, debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:32.539]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:32.539]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js (sourcemap at page.js.map, debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:32.539]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:32.539]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:32.539]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js (sourcemap at edge-instrumentation.js.map, debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:49:32.539]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:32.539]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:32.539]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:32.539]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js (sourcemap at page.js.map, debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:32.539]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:32.539]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:32.539]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js (sourcemap at middleware.js.map, debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:49:32.539]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js (sourcemap at page.js.map, debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:32.539]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js (sourcemap at page.js.map, debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:32.539]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js (sourcemap at page.js.map, debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:32.539]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js (sourcemap at page.js.map, debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:32.539]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:32.539]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:32.539]   Source Maps
+[17:49:32.539]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:32.539]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:32.539]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:32.539]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:32.539]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:32.539]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js.map (debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:32.539]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:32.540]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:32.540]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:32.540]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js.map (debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:32.540]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:32.540]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js.map (debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:32.540]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:32.540]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:32.540]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:32.540]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:32.540]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:32.540]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js.map (debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:49:32.540]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:32.540]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js.map (debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:32.540]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:32.540]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:32.540]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:32.540]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:32.540]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:32.540]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:32.540]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:32.540]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js.map (debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:32.540]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js.map (debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:32.540]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:32.540]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js.map (debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:32.540]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:32.540]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js.map (debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:32.540]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:32.540]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:32.540]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js.map (debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:49:32.540]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:32.540]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:32.540]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:32.540]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js.map (debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:32.540]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:32.540]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:32.540]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js.map (debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:49:32.540]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js.map (debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:32.540]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js.map (debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:32.540]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js.map (debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:32.540]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js.map (debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:32.540]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:32.540]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:32.546] [@sentry/nextjs - Edge] Info: Successfully uploaded source maps to Sentry
+[17:49:33.016] > Found 98 files
+[17:49:33.027] > Analyzing 98 sources
+[17:49:33.068] > Adding source map references
+[17:49:34.714] > Bundled 98 files for upload
+[17:49:34.714] > Bundle ID: c4c2d267-bdf7-5d63-9086-3acacbea9eb1
+[17:49:34.900] > Nothing to upload, all files are on the server
+[17:49:35.007] > File processing complete
+[17:49:35.007] > Organization: morganic
+[17:49:35.007] > Project: morganschofieldcom
+[17:49:35.007] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:35.007] > Dist: None
+[17:49:35.007] > Upload type: artifact bundle
+[17:49:35.008] 
+[17:49:35.008] Source Map Upload Report
+[17:49:35.008]   Scripts
+[17:49:35.008]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js (sourcemap at 365.js.map, debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:35.008]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js (sourcemap at 289.js.map, debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:35.009]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js (sourcemap at route.js.map, debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:35.009]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js (sourcemap at 777.js.map, debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:35.009]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js (sourcemap at 602.js.map, debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:35.009]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js (sourcemap at page.js.map, debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:35.009]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js (sourcemap at 488.js.map, debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:35.009]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js (sourcemap at _error.js.map, debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:35.009]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js (sourcemap at 718.js.map, debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:35.009]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js (sourcemap at 781.js.map, debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:35.009]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js (sourcemap at route.js.map, debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:35.009]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js (sourcemap at page.js.map, debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:35.009]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js (sourcemap at webpack-runtime.js.map, debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:35.009]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js (sourcemap at 116.js.map, debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:35.009]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js (sourcemap at route.js.map, debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:35.009]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js (sourcemap at 912.js.map, debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:35.009]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js (sourcemap at 714.js.map, debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:35.009]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js (sourcemap at edge-runtime-webpack.js.map, debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:49:35.009]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js (sourcemap at 589.js.map, debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:35.009]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js (sourcemap at page.js.map, debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:35.009]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js (sourcemap at route.js.map, debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:35.009]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js (sourcemap at _app.js.map, debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:35.009]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js (sourcemap at 145.js.map, debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:35.009]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js (sourcemap at route.js.map, debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:35.010]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js (sourcemap at _document.js.map, debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:35.010]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js (sourcemap at 196.js.map, debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:35.010]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js (sourcemap at route.js.map, debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:35.010]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js (sourcemap at page.js.map, debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:35.010]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js (sourcemap at page.js.map, debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:35.010]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js (sourcemap at 667.js.map, debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:35.010]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js (sourcemap at 874.js.map, debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:35.010]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js (sourcemap at route.js.map, debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:35.010]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js (sourcemap at page.js.map, debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:35.010]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js (sourcemap at 894.js.map, debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:35.010]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js (sourcemap at 728.js.map, debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:35.010]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js (sourcemap at edge-instrumentation.js.map, debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:49:35.010]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js (sourcemap at route.js.map, debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:35.010]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js (sourcemap at 332.js.map, debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:35.010]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js (sourcemap at 347.js.map, debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:35.010]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js (sourcemap at page.js.map, debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:35.010]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js (sourcemap at route.js.map, debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:35.010]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js (sourcemap at route.js.map, debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:35.010]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js (sourcemap at middleware.js.map, debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:49:35.010]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js (sourcemap at page.js.map, debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:35.010]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js (sourcemap at page.js.map, debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:35.010]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js (sourcemap at page.js.map, debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:35.010]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js (sourcemap at page.js.map, debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:35.010]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js (sourcemap at 607.js.map, debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:35.010]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js (sourcemap at instrumentation.js.map, debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:35.010]   Source Maps
+[17:49:35.010]     ~/043f378b-566a-432d-8cb4-2b9ee31eda55-27.js.map (debug id 043f378b-566a-432d-8cb4-2b9ee31eda55)
+[17:49:35.010]     ~/0461aec7-ed8b-449f-bb7f-0a22c24c1c67-24.js.map (debug id 0461aec7-ed8b-449f-bb7f-0a22c24c1c67)
+[17:49:35.010]     ~/115265e8-543e-4ff4-8c73-a8a50c46c083-4.js.map (debug id 115265e8-543e-4ff4-8c73-a8a50c46c083)
+[17:49:35.010]     ~/182f637c-3fc9-42c8-957e-bdd5bfcc7f2f-36.js.map (debug id 182f637c-3fc9-42c8-957e-bdd5bfcc7f2f)
+[17:49:35.010]     ~/1ded22c5-7fb2-4861-a7f6-cd0c19004857-30.js.map (debug id 1ded22c5-7fb2-4861-a7f6-cd0c19004857)
+[17:49:35.010]     ~/207d264f-5947-4efc-a192-aaa47bf96d38-1.js.map (debug id 207d264f-5947-4efc-a192-aaa47bf96d38)
+[17:49:35.011]     ~/256f2890-a1a4-41af-8405-ae0f9ea1fb32-28.js.map (debug id 256f2890-a1a4-41af-8405-ae0f9ea1fb32)
+[17:49:35.011]     ~/26919afd-7981-4a5d-905f-d39d0c637a7e-48.js.map (debug id 26919afd-7981-4a5d-905f-d39d0c637a7e)
+[17:49:35.011]     ~/28d1cc35-8d83-4082-8a09-2d2c67fb4f94-34.js.map (debug id 28d1cc35-8d83-4082-8a09-2d2c67fb4f94)
+[17:49:35.011]     ~/293e3aeb-14fc-4a11-8c32-206b31ce5e2a-37.js.map (debug id 293e3aeb-14fc-4a11-8c32-206b31ce5e2a)
+[17:49:35.011]     ~/3dd81d20-b6bd-488d-9816-79e4a41757f1-20.js.map (debug id 3dd81d20-b6bd-488d-9816-79e4a41757f1)
+[17:49:35.011]     ~/3dd8c74d-daf9-41ec-999b-cba73bfd411b-17.js.map (debug id 3dd8c74d-daf9-41ec-999b-cba73bfd411b)
+[17:49:35.011]     ~/3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4-50.js.map (debug id 3f8adc0f-9ad6-4eba-9df8-8c7571cfeab4)
+[17:49:35.011]     ~/444423de-67eb-4e2d-9512-8902b02547fc-21.js.map (debug id 444423de-67eb-4e2d-9512-8902b02547fc)
+[17:49:35.011]     ~/4cd4b2a6-c856-4b1a-91be-292661726b93-6.js.map (debug id 4cd4b2a6-c856-4b1a-91be-292661726b93)
+[17:49:35.011]     ~/4e8e4cac-4404-4486-95cd-1ce81aac5cd4-40.js.map (debug id 4e8e4cac-4404-4486-95cd-1ce81aac5cd4)
+[17:49:35.011]     ~/517732b0-ea02-4839-b1ec-a87e285d1aae-33.js.map (debug id 517732b0-ea02-4839-b1ec-a87e285d1aae)
+[17:49:35.011]     ~/586e2365-a42d-45f7-812a-d549d4fd319c-42.js.map (debug id 586e2365-a42d-45f7-812a-d549d4fd319c)
+[17:49:35.011]     ~/58ac7ffd-4556-404c-9461-01148a76d43e-29.js.map (debug id 58ac7ffd-4556-404c-9461-01148a76d43e)
+[17:49:35.011]     ~/5d04e60c-73a3-4645-8908-25ecbf7a7863-14.js.map (debug id 5d04e60c-73a3-4645-8908-25ecbf7a7863)
+[17:49:35.011]     ~/6975af52-f2d4-4345-bec4-792389012820-5.js.map (debug id 6975af52-f2d4-4345-bec4-792389012820)
+[17:49:35.011]     ~/6d5ea3f4-57af-449c-95c2-69e0c94c4450-46.js.map (debug id 6d5ea3f4-57af-449c-95c2-69e0c94c4450)
+[17:49:35.011]     ~/6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1-22.js.map (debug id 6eb04fb5-e42d-4c51-a30b-dcbfffb36eb1)
+[17:49:35.011]     ~/70b60284-5b47-4f8a-8bb3-9c02a73b4d36-7.js.map (debug id 70b60284-5b47-4f8a-8bb3-9c02a73b4d36)
+[17:49:35.011]     ~/713d3f3c-34bf-4dc4-8d2b-d9f535c6a591-47.js.map (debug id 713d3f3c-34bf-4dc4-8d2b-d9f535c6a591)
+[17:49:35.011]     ~/71610159-f0cf-4a77-9eb4-31683fc44aaa-23.js.map (debug id 71610159-f0cf-4a77-9eb4-31683fc44aaa)
+[17:49:35.011]     ~/8071a587-4561-4f52-9f70-a34998ab295b-8.js.map (debug id 8071a587-4561-4f52-9f70-a34998ab295b)
+[17:49:35.011]     ~/86c4ced2-8f56-44ce-a0b6-c9567faa328b-2.js.map (debug id 86c4ced2-8f56-44ce-a0b6-c9567faa328b)
+[17:49:35.011]     ~/8de7e960-836f-4757-9b16-5eb24d714c44-0.js.map (debug id 8de7e960-836f-4757-9b16-5eb24d714c44)
+[17:49:35.011]     ~/8f1cb269-84e4-4c16-91ac-12862d637a37-32.js.map (debug id 8f1cb269-84e4-4c16-91ac-12862d637a37)
+[17:49:35.011]     ~/9a43d746-ed84-4c08-a5bd-43aeec304c65-38.js.map (debug id 9a43d746-ed84-4c08-a5bd-43aeec304c65)
+[17:49:35.011]     ~/a6d52e5e-94e3-49d7-b863-e013f3871346-11.js.map (debug id a6d52e5e-94e3-49d7-b863-e013f3871346)
+[17:49:35.011]     ~/a7cf8feb-45f0-4b31-884f-0db94ab664c5-13.js.map (debug id a7cf8feb-45f0-4b31-884f-0db94ab664c5)
+[17:49:35.011]     ~/a98df632-d7c5-41e8-a519-00202e9e440a-39.js.map (debug id a98df632-d7c5-41e8-a519-00202e9e440a)
+[17:49:35.011]     ~/aa53b5bf-74af-4bdb-aec1-2e3750df02b7-35.js.map (debug id aa53b5bf-74af-4bdb-aec1-2e3750df02b7)
+[17:49:35.011]     ~/aad313ea-0bae-466e-aa0d-5e5e5e8b4533-41.js.map (debug id aad313ea-0bae-466e-aa0d-5e5e5e8b4533)
+[17:49:35.011]     ~/b3037c3d-edc1-466b-824c-c861f8935895-3.js.map (debug id b3037c3d-edc1-466b-824c-c861f8935895)
+[17:49:35.011]     ~/b75510ba-7a87-4d73-81d9-eeeef892ac2d-25.js.map (debug id b75510ba-7a87-4d73-81d9-eeeef892ac2d)
+[17:49:35.011]     ~/ba9e5bf0-7fc5-4f3d-9286-a256ad595d84-26.js.map (debug id ba9e5bf0-7fc5-4f3d-9286-a256ad595d84)
+[17:49:35.011]     ~/bc730a21-4bef-428d-b310-eb5455096f26-18.js.map (debug id bc730a21-4bef-428d-b310-eb5455096f26)
+[17:49:35.011]     ~/c4d66599-4b1c-4fcb-9f44-8900de81799c-12.js.map (debug id c4d66599-4b1c-4fcb-9f44-8900de81799c)
+[17:49:35.011]     ~/cebca283-ee38-48a8-a217-07db63aef66f-15.js.map (debug id cebca283-ee38-48a8-a217-07db63aef66f)
+[17:49:35.011]     ~/d2cf4002-6404-47e7-9ea4-474f304cb29e-45.js.map (debug id d2cf4002-6404-47e7-9ea4-474f304cb29e)
+[17:49:35.012]     ~/d63acffa-7618-4fb5-ad36-3b991009f191-19.js.map (debug id d63acffa-7618-4fb5-ad36-3b991009f191)
+[17:49:35.012]     ~/dc094f9b-ce50-4593-8390-a91d52585f59-16.js.map (debug id dc094f9b-ce50-4593-8390-a91d52585f59)
+[17:49:35.012]     ~/de850de0-46e0-469c-a4f7-de8678523407-9.js.map (debug id de850de0-46e0-469c-a4f7-de8678523407)
+[17:49:35.012]     ~/e9075ed8-c58a-456b-bbe7-b1a157955185-10.js.map (debug id e9075ed8-c58a-456b-bbe7-b1a157955185)
+[17:49:35.012]     ~/f0a24a90-66da-404c-86cc-ea64d46254be-31.js.map (debug id f0a24a90-66da-404c-86cc-ea64d46254be)
+[17:49:35.012]     ~/f0fa51b3-2735-4f5e-a818-01c89fa53e14-43.js.map (debug id f0fa51b3-2735-4f5e-a818-01c89fa53e14)
+[17:49:35.015] [@sentry/nextjs - Edge] Info: Successfully uploaded source maps to Sentry
+[17:49:35.110] <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (242kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+[17:49:35.186] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:35.187] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:49:36.817] > Found 74 files
+[17:49:36.821] > Analyzing 74 sources
+[17:49:36.832] > Adding source map references
+[17:49:37.519] > Bundled 74 files for upload
+[17:49:37.519] > Bundle ID: 27f3d04b-f6b3-5b15-9fad-7435a379822d
+[17:49:37.989] > Uploaded files to Sentry
+[17:49:38.199] > File upload complete (processing pending on server)
+[17:49:38.200] > Organization: morganic
+[17:49:38.200] > Project: morganschofieldcom
+[17:49:38.200] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:38.200] > Dist: None
+[17:49:38.200] > Upload type: artifact bundle
+[17:49:38.200] 
+[17:49:38.200] Source Map Upload Report
+[17:49:38.200]   Scripts
+[17:49:38.200]     ~/0b246a43-2225-4000-afd8-57d649651701-27.js (no sourcemap found, debug id 0b246a43-2225-4000-afd8-57d649651701)
+[17:49:38.200]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/0b246a43-2225-4000-afd8-57d649651701-27.js)
+[17:49:38.200]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js (sourcemap at 13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js.map, debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:49:38.200]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js (sourcemap at 169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js.map, debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:49:38.200]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js (sourcemap at 1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js.map, debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:49:38.200]     ~/2124e86e-98fc-4594-888e-ec250bba4b61-22.js (no sourcemap found, debug id 2124e86e-98fc-4594-888e-ec250bba4b61)
+[17:49:38.200]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/2124e86e-98fc-4594-888e-ec250bba4b61-22.js)
+[17:49:38.200]     ~/30b0516e-96d3-49c2-9ce2-f77cd7b12b5c-19.js (no sourcemap found, debug id 30b0516e-96d3-49c2-9ce2-f77cd7b12b5c)
+[17:49:38.200]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/30b0516e-96d3-49c2-9ce2-f77cd7b12b5c-19.js)
+[17:49:38.200]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js (sourcemap at 30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js.map, debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:49:38.200]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js (sourcemap at 3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js.map, debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:49:38.200]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js (sourcemap at 3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js.map, debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:49:38.201]     ~/409b9097-cdfb-4cf3-82cb-eb28d28568a5-23.js (no sourcemap found, debug id 409b9097-cdfb-4cf3-82cb-eb28d28568a5)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/409b9097-cdfb-4cf3-82cb-eb28d28568a5-23.js)
+[17:49:38.201]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js (sourcemap at 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js.map, debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:49:38.201]     ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js (no sourcemap found, debug id 4f07c389-18f8-4867-9c1a-4631552913c6)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js)
+[17:49:38.201]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js (sourcemap at 55683238-cc76-49c5-90e0-0e4741c5108d-8.js.map, debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:49:38.201]     ~/5e07f8f1-5308-4716-8a4a-5962d3424970-20.js (no sourcemap found, debug id 5e07f8f1-5308-4716-8a4a-5962d3424970)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e07f8f1-5308-4716-8a4a-5962d3424970-20.js)
+[17:49:38.201]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js (sourcemap at 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js.map, debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:49:38.201]     ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js (no sourcemap found, debug id 5e86f540-b48a-4c0e-8690-c1418854fa55)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js)
+[17:49:38.201]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js (sourcemap at 61c48378-8e36-45cd-aab0-970fb6b520c1-6.js.map, debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:49:38.201]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js (sourcemap at 68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js.map, debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:49:38.201]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js (sourcemap at 69323112-79df-4432-95fb-fb0bf6083108-9.js.map, debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:49:38.201]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js (sourcemap at 7094a194-c4c9-4b12-8715-cc39a0603421-10.js.map, debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:49:38.201]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js (sourcemap at 72d3117f-9872-48f0-8bf7-ad264cf82893-15.js.map, debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:49:38.201]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js (sourcemap at 77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js.map, debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:49:38.201]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js (sourcemap at 79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js.map, debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:49:38.201]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js (sourcemap at 7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js.map, debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:49:38.201]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js (sourcemap at 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js.map, debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:49:38.201]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js (sourcemap at 80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js.map, debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:49:38.201]     ~/8190cd18-3b65-4245-ac7b-af3e71eda66f-36.js (no sourcemap found, debug id 8190cd18-3b65-4245-ac7b-af3e71eda66f)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/8190cd18-3b65-4245-ac7b-af3e71eda66f-36.js)
+[17:49:38.201]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js (sourcemap at 85611846-6b09-4914-8b77-0c70f1ba5b85-31.js.map, debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:49:38.201]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js (sourcemap at 86e3d1ac-94b2-40a6-b224-0517256b3523-35.js.map, debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:49:38.201]     ~/99ad1e2a-eaee-44a0-be62-c88b0dd287b0-37.js (no sourcemap found, debug id 99ad1e2a-eaee-44a0-be62-c88b0dd287b0)
+[17:49:38.201]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/99ad1e2a-eaee-44a0-be62-c88b0dd287b0-37.js)
+[17:49:38.201]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js (sourcemap at 9deaa815-1534-4942-a613-14a462ed51b6-33.js.map, debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:49:38.201]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js (sourcemap at a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js.map, debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:49:38.201]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js (sourcemap at aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js.map, debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:49:38.202]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js (sourcemap at b08606e3-9bee-422f-9e79-7129b361d328-3.js.map, debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:49:38.202]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js (sourcemap at b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js.map, debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:49:38.202]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js (sourcemap at c1864610-d142-452f-adef-85c8e477cefb-1.js.map, debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:49:38.202]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js (sourcemap at c607fe31-c563-49ec-95fb-3774862be116-17.js.map, debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:49:38.202]     ~/d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a-24.js (no sourcemap found, debug id d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a)
+[17:49:38.202]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a-24.js)
+[17:49:38.202]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js (sourcemap at ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js.map, debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:49:38.202]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js (sourcemap at ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js.map, debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:49:38.202]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js (sourcemap at e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js.map, debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:49:38.202]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js (sourcemap at ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js.map, debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:49:38.202]   Source Maps
+[17:49:38.202]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js.map (debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:49:38.202]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js.map (debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:49:38.202]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js.map (debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:49:38.202]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js.map (debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:49:38.202]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js.map (debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:49:38.202]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js.map (debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:49:38.202]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js.map (debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:49:38.202]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js.map (debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:49:38.202]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js.map (debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:49:38.202]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js.map (debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:49:38.202]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js.map (debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:49:38.202]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js.map (debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:49:38.202]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js.map (debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:49:38.202]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js.map (debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:49:38.202]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js.map (debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:49:38.202]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js.map (debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:49:38.202]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js.map (debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:49:38.202]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js.map (debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:49:38.202]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js.map (debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:49:38.203]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js.map (debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:49:38.203]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js.map (debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:49:38.203]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js.map (debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:49:38.203]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js.map (debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:49:38.203]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js.map (debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:49:38.203]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js.map (debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:49:38.203]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js.map (debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:49:38.203]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js.map (debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:49:38.203]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js.map (debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:49:38.203]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js.map (debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:49:38.203]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js.map (debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:49:38.203]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js.map (debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:49:38.203]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js.map (debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:49:38.206] [@sentry/nextjs - Client] Info: Successfully uploaded source maps to Sentry
+[17:49:38.451] > Found 42 files
+[17:49:38.452] > Analyzing 42 sources
+[17:49:38.453] > Adding source map references
+[17:49:38.759] > Bundled 42 files for upload
+[17:49:38.759] > Bundle ID: f89c3c93-9e7c-566c-8be5-86448b947f05
+[17:49:39.400] > Uploaded files to Sentry
+[17:49:39.682] > File upload complete (processing pending on server)
+[17:49:39.682] > Organization: morganic
+[17:49:39.682] > Project: morganschofieldcom
+[17:49:39.682] > Release: d724716f5df84f703562e46aa387a14bc91f434c
+[17:49:39.682] > Dist: None
+[17:49:39.682] > Upload type: artifact bundle
+[17:49:39.682] 
+[17:49:39.682] Source Map Upload Report
+[17:49:39.682]   Scripts
+[17:49:39.682]     ~/0b246a43-2225-4000-afd8-57d649651701-27.js (no sourcemap found, debug id 0b246a43-2225-4000-afd8-57d649651701)
+[17:49:39.682]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/0b246a43-2225-4000-afd8-57d649651701-27.js)
+[17:49:39.682]     ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js (no sourcemap found, debug id 13a9650a-22ba-4ad6-9a58-4536b354dfe6)
+[17:49:39.682]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/13a9650a-22ba-4ad6-9a58-4536b354dfe6-30.js)
+[17:49:39.683]     ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js (no sourcemap found, debug id 169cad94-957f-4a9c-9608-cfdb2d4d20b4)
+[17:49:39.683]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/169cad94-957f-4a9c-9608-cfdb2d4d20b4-5.js)
+[17:49:39.683]     ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js (no sourcemap found, debug id 1deccfa9-fb4b-4455-81e6-c0c11af2ccec)
+[17:49:39.683]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/1deccfa9-fb4b-4455-81e6-c0c11af2ccec-13.js)
+[17:49:39.683]     ~/2124e86e-98fc-4594-888e-ec250bba4b61-22.js (no sourcemap found, debug id 2124e86e-98fc-4594-888e-ec250bba4b61)
+[17:49:39.683]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/2124e86e-98fc-4594-888e-ec250bba4b61-22.js)
+[17:49:39.683]     ~/30b0516e-96d3-49c2-9ce2-f77cd7b12b5c-19.js (no sourcemap found, debug id 30b0516e-96d3-49c2-9ce2-f77cd7b12b5c)
+[17:49:39.683]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/30b0516e-96d3-49c2-9ce2-f77cd7b12b5c-19.js)
+[17:49:39.683]     ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js (no sourcemap found, debug id 30ee97b4-c0e1-4d90-981c-723ff5efa917)
+[17:49:39.683]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/30ee97b4-c0e1-4d90-981c-723ff5efa917-21.js)
+[17:49:39.683]     ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js (no sourcemap found, debug id 3241131f-301e-4b87-bdf3-0cc8ffc03dbd)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/3241131f-301e-4b87-bdf3-0cc8ffc03dbd-28.js)
+[17:49:39.684]     ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js (no sourcemap found, debug id 3d2ca2c6-d736-4cfe-810f-7d42f278f09e)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/3d2ca2c6-d736-4cfe-810f-7d42f278f09e-39.js)
+[17:49:39.684]     ~/409b9097-cdfb-4cf3-82cb-eb28d28568a5-23.js (no sourcemap found, debug id 409b9097-cdfb-4cf3-82cb-eb28d28568a5)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/409b9097-cdfb-4cf3-82cb-eb28d28568a5-23.js)
+[17:49:39.684]     ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js (no sourcemap found, debug id 4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4e5e38a1-0e41-4f3e-a7fe-dd33137eaf05-16.js)
+[17:49:39.684]     ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js (no sourcemap found, debug id 4f07c389-18f8-4867-9c1a-4631552913c6)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/4f07c389-18f8-4867-9c1a-4631552913c6-26.js)
+[17:49:39.684]     ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js (no sourcemap found, debug id 55683238-cc76-49c5-90e0-0e4741c5108d)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/55683238-cc76-49c5-90e0-0e4741c5108d-8.js)
+[17:49:39.684]     ~/5e07f8f1-5308-4716-8a4a-5962d3424970-20.js (no sourcemap found, debug id 5e07f8f1-5308-4716-8a4a-5962d3424970)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e07f8f1-5308-4716-8a4a-5962d3424970-20.js)
+[17:49:39.684]     ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js (no sourcemap found, debug id 5e7b9ed9-5f07-45fa-ac35-5e5daeca3844)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e7b9ed9-5f07-45fa-ac35-5e5daeca3844-14.js)
+[17:49:39.684]     ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js (no sourcemap found, debug id 5e86f540-b48a-4c0e-8690-c1418854fa55)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/5e86f540-b48a-4c0e-8690-c1418854fa55-25.js)
+[17:49:39.684]     ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js (no sourcemap found, debug id 61c48378-8e36-45cd-aab0-970fb6b520c1)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/61c48378-8e36-45cd-aab0-970fb6b520c1-6.js)
+[17:49:39.684]     ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js (no sourcemap found, debug id 68f4647a-a6cd-4adb-93dd-d68b1cdacb98)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/68f4647a-a6cd-4adb-93dd-d68b1cdacb98-40.js)
+[17:49:39.684]     ~/69323112-79df-4432-95fb-fb0bf6083108-9.js (no sourcemap found, debug id 69323112-79df-4432-95fb-fb0bf6083108)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/69323112-79df-4432-95fb-fb0bf6083108-9.js)
+[17:49:39.684]     ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js (no sourcemap found, debug id 7094a194-c4c9-4b12-8715-cc39a0603421)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7094a194-c4c9-4b12-8715-cc39a0603421-10.js)
+[17:49:39.684]     ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js (no sourcemap found, debug id 72d3117f-9872-48f0-8bf7-ad264cf82893)
+[17:49:39.684]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/72d3117f-9872-48f0-8bf7-ad264cf82893-15.js)
+[17:49:39.684]     ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js (no sourcemap found, debug id 77e46082-28b4-4ac2-91d5-3ff8284a3dc0)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/77e46082-28b4-4ac2-91d5-3ff8284a3dc0-32.js)
+[17:49:39.685]     ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js (no sourcemap found, debug id 79b53fb3-6068-448f-9eb0-b7369e3fd1d0)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/79b53fb3-6068-448f-9eb0-b7369e3fd1d0-34.js)
+[17:49:39.685]     ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js (no sourcemap found, debug id 7a3d3127-f836-48d3-9bb5-02673cfbc140)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7a3d3127-f836-48d3-9bb5-02673cfbc140-0.js)
+[17:49:39.685]     ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js (no sourcemap found, debug id 7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/7d9267eb-0dc8-4a32-9d03-71e6d4c4e36f-29.js)
+[17:49:39.685]     ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js (no sourcemap found, debug id 80fb5df3-c988-4e4b-be5b-4ae3b60adf29)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/80fb5df3-c988-4e4b-be5b-4ae3b60adf29-11.js)
+[17:49:39.685]     ~/8190cd18-3b65-4245-ac7b-af3e71eda66f-36.js (no sourcemap found, debug id 8190cd18-3b65-4245-ac7b-af3e71eda66f)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/8190cd18-3b65-4245-ac7b-af3e71eda66f-36.js)
+[17:49:39.685]     ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js (no sourcemap found, debug id 85611846-6b09-4914-8b77-0c70f1ba5b85)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/85611846-6b09-4914-8b77-0c70f1ba5b85-31.js)
+[17:49:39.685]     ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js (no sourcemap found, debug id 86e3d1ac-94b2-40a6-b224-0517256b3523)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/86e3d1ac-94b2-40a6-b224-0517256b3523-35.js)
+[17:49:39.685]     ~/99ad1e2a-eaee-44a0-be62-c88b0dd287b0-37.js (no sourcemap found, debug id 99ad1e2a-eaee-44a0-be62-c88b0dd287b0)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/99ad1e2a-eaee-44a0-be62-c88b0dd287b0-37.js)
+[17:49:39.685]     ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js (no sourcemap found, debug id 9deaa815-1534-4942-a613-14a462ed51b6)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/9deaa815-1534-4942-a613-14a462ed51b6-33.js)
+[17:49:39.685]     ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js (no sourcemap found, debug id a90913d8-c0b9-4b75-9f9b-d653ddcad3c5)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/a90913d8-c0b9-4b75-9f9b-d653ddcad3c5-18.js)
+[17:49:39.685]     ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js (no sourcemap found, debug id aaca1fd5-7cc6-40be-a7b7-e82bbf55515e)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/aaca1fd5-7cc6-40be-a7b7-e82bbf55515e-41.js)
+[17:49:39.685]     ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js (no sourcemap found, debug id b08606e3-9bee-422f-9e79-7129b361d328)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b08606e3-9bee-422f-9e79-7129b361d328-3.js)
+[17:49:39.685]     ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js (no sourcemap found, debug id b125db7a-8f2b-4db4-8daf-e816576daaf7)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/b125db7a-8f2b-4db4-8daf-e816576daaf7-38.js)
+[17:49:39.685]     ~/c1864610-d142-452f-adef-85c8e477cefb-1.js (no sourcemap found, debug id c1864610-d142-452f-adef-85c8e477cefb)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/c1864610-d142-452f-adef-85c8e477cefb-1.js)
+[17:49:39.685]     ~/c607fe31-c563-49ec-95fb-3774862be116-17.js (no sourcemap found, debug id c607fe31-c563-49ec-95fb-3774862be116)
+[17:49:39.685]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/c607fe31-c563-49ec-95fb-3774862be116-17.js)
+[17:49:39.685]     ~/d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a-24.js (no sourcemap found, debug id d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a)
+[17:49:39.686]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/d58350bb-96eb-43fe-b3ce-7e7ae57e8d4a-24.js)
+[17:49:39.686]     ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js (no sourcemap found, debug id ddbbca56-eb33-4875-bb3a-6f3fb504da34)
+[17:49:39.686]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ddbbca56-eb33-4875-bb3a-6f3fb504da34-7.js)
+[17:49:39.686]     ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js (no sourcemap found, debug id ddff19bf-c696-48d5-aae5-2fa2fcf07d2a)
+[17:49:39.686]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ddff19bf-c696-48d5-aae5-2fa2fcf07d2a-12.js)
+[17:49:39.686]     ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js (no sourcemap found, debug id e1380e98-fdfc-4578-95eb-9d06fe97ce3b)
+[17:49:39.686]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/e1380e98-fdfc-4578-95eb-9d06fe97ce3b-2.js)
+[17:49:39.686]     ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js (no sourcemap found, debug id ff8947aa-6e37-4733-9ed6-d750e42b2b84)
+[17:49:39.686]       - warning: could not determine a source map reference (Could not auto-detect referenced sourcemap for ~/ff8947aa-6e37-4733-9ed6-d750e42b2b84-4.js)
+[17:49:39.690] [@sentry/nextjs - Client] Info: Successfully uploaded source maps to Sentry
+[17:49:40.035]  ✓ Compiled successfully
+[17:49:40.039]    Linting and checking validity of types ...
+[17:49:41.458] 
+[17:49:41.458] ./app/(website)/layout.tsx
+[17:49:41.458] 2:10  Warning: 'CommandMenu' is defined but never used.  no-unused-vars
+[17:49:41.458] 
+[17:49:41.458] ./app/actions/subscribe.ts
+[17:49:41.458] 10:6  Warning: 'SubscribeFormData' is defined but never used.  no-unused-vars
+[17:49:41.458] 
+[17:49:41.458] ./components/EmotionWheel.tsx
+[17:49:41.458] 94:9  Warning: The 'resetAll' function makes the dependencies of useEffect Hook (at line 132) change on every render. To fix this, wrap the definition of 'resetAll' in its own useCallback() Hook.  react-hooks/exhaustive-deps
+[17:49:41.458] 188:9  Warning: 'resetZoom' is assigned a value but never used.  no-unused-vars
+[17:49:41.459] 
+[17:49:41.459] ./components/ProfileImageUpload.tsx
+[17:49:41.459] 4:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:49:41.459] 
+[17:49:41.459] ./components/homepage/HomePage.tsx
+[17:49:41.459] 6:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:49:41.459] 
+[17:49:41.459] ./components/ui/carousel.tsx
+[17:49:41.459] 21:13  Warning: 'api' is defined but never used.  no-unused-vars
+[17:49:41.459] 
+[17:49:41.459] ./components/ui/sidebar.tsx
+[17:49:41.459] 32:13  Warning: 'open' is defined but never used.  no-unused-vars
+[17:49:41.459] 34:19  Warning: 'open' is defined but never used.  no-unused-vars
+[17:49:41.459] 56:21  Warning: 'open' is defined but never used.  no-unused-vars
+[17:49:41.459] 79:27  Warning: 'value' is defined but never used.  no-unused-vars
+[17:49:41.460] 
+[17:49:41.460] ./components/website-layout/Header.tsx
+[17:49:41.460] 12:10  Warning: 'CTALogin' is defined but never used.  no-unused-vars
+[17:49:41.460] 
+[17:49:41.460] ./lib/withToast.ts
+[17:49:41.460] 20:44  Warning: 'args' is defined but never used.  no-unused-vars
+[17:49:41.460] 
+[17:49:41.460] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[17:49:49.875]    Collecting page data ...
+[17:49:53.957]    Generating static pages (0/22) ...
+[17:49:54.523]    Generating static pages (5/22) 
+[17:49:54.808]    Generating static pages (10/22) 
+[17:49:54.808]    Generating static pages (16/22) 
+[17:49:55.079]  ✓ Generating static pages (22/22)
+[17:49:55.381]    Finalizing page optimization ...
+[17:49:55.381]    Collecting build traces ...
+[17:50:00.672] 
+[17:50:00.684] Route (app)                              Size     First Load JS
+[17:50:00.684] ┌ ○ /                                    4.37 kB         258 kB
+[17:50:00.684] ├ ○ /_not-found                          341 B           203 kB
+[17:50:00.684] ├ ƒ /api/auth/callback                   340 B           202 kB
+[17:50:00.684] ├ ƒ /api/sentry-example-api              340 B           202 kB
+[17:50:00.684] ├ ƒ /api/stripe/webhook                  341 B           203 kB
+[17:50:00.684] ├ ƒ /api/update-profile-image            341 B           203 kB
+[17:50:00.684] ├ ƒ /api/upload-profile-image            340 B           202 kB
+[17:50:00.684] ├ ○ /apple-icon.png                      0 B                0 B
+[17:50:00.684] ├ ƒ /dashboard                           340 B           202 kB
+[17:50:00.684] ├ ○ /emotions                            3.51 kB         246 kB
+[17:50:00.684] ├ ○ /essays                              381 B           243 kB
+[17:50:00.684] ├ ○ /icon.png                            0 B                0 B
+[17:50:00.684] ├ ○ /login                               10.6 kB         260 kB
+[17:50:00.684] ├ ƒ /onboarding                          9.66 kB         219 kB
+[17:50:00.685] ├ ○ /opengraph-image.png                 0 B                0 B
+[17:50:00.685] ├ ○ /our-privacy-policy                  340 B           202 kB
+[17:50:00.685] ├ ○ /our-terms-of-service                340 B           202 kB
+[17:50:00.685] ├ ○ /profile                             4.01 kB         295 kB
+[17:50:00.685] ├ ○ /sentry-example-page                 2.09 kB         204 kB
+[17:50:00.685] └ ○ /twitter-image.png                   0 B                0 B
+[17:50:00.685] + First Load JS shared by all            202 kB
+[17:50:00.685]   ├ chunks/4bd1b696-81da0ac7da040259.js  52.8 kB
+[17:50:00.685]   ├ chunks/52774a7f-e959ffcd6306e350.js  36.4 kB
+[17:50:00.685]   ├ chunks/602-92ce50bac7957991.js       110 kB
+[17:50:00.685]   └ other shared chunks (total)          2.58 kB
+[17:50:00.685] 
+[17:50:00.685] 
+[17:50:00.685] ƒ Middleware                             118 kB
+[17:50:00.685] 
+[17:50:00.685] ○  (Static)   prerendered as static content
+[17:50:00.685] ƒ  (Dynamic)  server-rendered on demand
+[17:50:00.685] 
+[17:50:00.728] 
+[17:50:00.728] > cursor-dev-kit@0.1.0 postbuild
+[17:50:00.728] > next-sitemap
+[17:50:00.728] 
+[17:50:00.807] ✨ [next-sitemap] Loading next-sitemap config: file:///vercel/path0/client/next-sitemap.config.js
+[17:50:00.813] ✅ [next-sitemap] Generation completed
+[17:50:00.813] ┌───────────────┬────────┐
+[17:50:00.813] │ (index)       │ Values │
+[17:50:00.813] ├───────────────┼────────┤
+[17:50:00.813] │ indexSitemaps │ 1      │
+[17:50:00.813] │ sitemaps      │ 1      │
+[17:50:00.814] └───────────────┴────────┘
+[17:50:00.814] -----------------------------------------------------
+[17:50:00.814]  SITEMAP INDICES 
+[17:50:00.814] -----------------------------------------------------
+[17:50:00.814] 
+[17:50:00.814]    ○ https://morganschofield.com/sitemap.xml
+[17:50:00.814] 
+[17:50:00.814] 
+[17:50:00.814] -----------------------------------------------------
+[17:50:00.814]  SITEMAPS 
+[17:50:00.814] -----------------------------------------------------
+[17:50:00.814] 
+[17:50:00.814]    ○ https://morganschofield.com/sitemap-0.xml
+[17:50:00.814] 
+[17:50:00.814] 
+[17:50:01.062] Using TypeScript 5.6.3 (local user-provided)
+[17:50:06.117] Build Completed in /vercel/output [3m]
+[17:50:06.277] Deploying outputs...
+[17:50:14.090] 
+[17:50:14.412] Deployment completed
+[17:50:46.116] Uploading build cache [162.33 MB]...
+[17:50:48.585] Build cache uploaded: 2.469s
