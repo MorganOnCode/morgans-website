@@ -18,6 +18,12 @@ async function updateUser(
   updateData: Partial<Database["public"]["Tables"]["users"]["Update"]>
 ) {
   const supabase = createAdminClient();
+  
+  // If supabase client is null, log a warning and return
+  if (!supabase) {
+    logger.warn("Supabase client is null, skipping user update");
+    return { error: null };
+  }
 
   const { error: updateError } = await supabase
     .from("users")
@@ -41,6 +47,12 @@ async function createUserFromStripeCustomer(
   email: string
 ) {
   const supabase = createAdminClient();
+  
+  // If supabase client is null, log a warning and return null
+  if (!supabase) {
+    logger.warn("Supabase client is null, skipping user creation");
+    return null;
+  }
 
   logger.info(`Attempting to create user with email: ${email}`);
 
@@ -117,6 +129,15 @@ export async function POST(req: NextRequest) {
   const headersInstance = await headers();
   const signature = headersInstance.get("Stripe-Signature") as string;
 
+  // Check if webhook secret is available
+  if (!process.env.STRIPE_WEBHOOK_SECRET) {
+    logger.warn("Missing STRIPE_WEBHOOK_SECRET, returning 400");
+    return NextResponse.json(
+      { error: "Webhook secret is not configured" },
+      { status: 400 }
+    );
+  }
+
   let event: Stripe.Event;
 
   // Validate the Stripe webhook event
@@ -124,7 +145,7 @@ export async function POST(req: NextRequest) {
     event = stripe.webhooks.constructEvent(
       body,
       signature,
-      process.env.STRIPE_WEBHOOK_SECRET as string
+      process.env.STRIPE_WEBHOOK_SECRET
     );
   } catch (err) {
     const errorMessage = `Webhook Error: ${
