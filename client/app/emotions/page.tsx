@@ -37,7 +37,7 @@ export default function EmotionsPage() {
               Start at the center of the wheel and work your way outward:
             </p>
             <ol>
-              <li>Identify the primary emotion you're feeling (inner circle)</li>
+              <li>Identify the primary emotion you&apos;re feeling (inner circle)</li>
               <li>Move to the middle circle to find more specific secondary emotions</li>
               <li>Explore the outer circle for the most precise tertiary emotions</li>
             </ol>
