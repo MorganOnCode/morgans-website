@@ -1,10 +1,15 @@
 import { createClient } from "@supabase/supabase-js";
 import { Database, Tables } from "@/types/types";
 
-const supabase = createClient<Database>(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-);
+// Check if environment variables are available
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+// Create a dummy client if environment variables are not available
+// This allows the build to complete but will return empty data
+const supabase = supabaseUrl && supabaseAnonKey 
+  ? createClient<Database>(supabaseUrl, supabaseAnonKey)
+  : null;
 
 export async function getArticles(
   limit = 10,
@@ -16,6 +21,9 @@ export async function getArticles(
     categories: Tables<"categories">[] | null;
   })[]
 > {
+  // Return empty array if supabase client is not initialized
+  if (!supabase) return [];
+  
   let query = supabase
     .from("articles")
     .select(
@@ -50,12 +58,14 @@ export async function getArticles(
 }
 
 export async function getCategories() {
+  if (!supabase) return [];
   const { data, error } = await supabase.from("categories").select("*");
   if (error) throw error;
   return data;
 }
 
 export async function getArticlesByCategoryId(categoryId: string) {
+  if (!supabase) return [];
   const { data, error } = await supabase
     .from("articles")
     .select("*")
@@ -67,6 +77,7 @@ export async function getArticlesByCategoryId(categoryId: string) {
 
 export async function getArticleById(id: string | undefined) {
   if (!id) return null;
+  if (!supabase) return null;
   const { data, error } = await supabase
     .from("articles")
     .select(
@@ -96,6 +107,7 @@ export async function getArticleById(id: string | undefined) {
 
 export async function getAuthorById(id: string | undefined) {
   if (!id) return null;
+  if (!supabase) return null;
   const { data, error } = await supabase
     .from("authors")
     .select("*")
@@ -111,6 +123,7 @@ export async function getAuthorById(id: string | undefined) {
 
 export async function getCategoryById(id: string | undefined) {
   if (!id) return null;
+  if (!supabase) return null;
   const { data, error } = await supabase
     .from("categories")
     .select("*")

@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   const articles = await getArticles();
+  // If no articles are found (possibly due to missing env vars during build),
+  // return an empty array to allow the build to complete
   return articles.map((article) => ({ articleId: article.id }));
 }
 
