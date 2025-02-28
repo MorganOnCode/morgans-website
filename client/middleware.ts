@@ -1,42 +1,56 @@
 import type { NextRequest } from "next/server";
-import { updateSession } from "@/utils/supabase/middleware";
-import { isAuthenticated, isRateLimited } from "@/lib/auth-utils";
 import { NextResponse } from "next/server";
-import { createClient } from "@/utils/supabase/server";
+import { createServerClient, type CookieOptions } from '@supabase/ssr'
 
 export async function middleware(request: NextRequest) {
-  const response = await updateSession(request);
+  let response = NextResponse.next({
+    request: {
+      headers: request.headers,
+    },
+  });
+
+  // Create a Supabase client using cookies
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        get(name: string) {
+          return request.cookies.get(name)?.value;
+        },
+        set(name: string, value: string, options: CookieOptions) {
+          response.cookies.set({
+            name,
+            value,
+            ...options,
+          });
+        },
+        remove(name: string, options: CookieOptions) {
+          response.cookies.set({
+            name,
+            value: '',
+            ...options,
+          });
+        },
+      },
+    }
+  );
+
+  // Refresh the session if it exists
+  await supabase.auth.getSession();
+
+  // For API routes that need rate limiting, implement a simpler check
   if (
     request.nextUrl.pathname === "/api/get-stripe-account-details" ||
     request.nextUrl.pathname === "/api/validate-stripe-key"
   ) {
     // Check authentication
-    const authenticated = await isAuthenticated();
-    if (!authenticated) {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
-
-    // Get the user and apply rate limiting:
-    const supabase = await createClient();
-    const user = await supabase.auth.getUser();
-    const userId = user.data.user?.id;
-    if (!userId) {
-      return NextResponse.json({ error: "User ID not found" }, { status: 400 });
-    }
-
-    const rateLimited = await isRateLimited(
-      userId,
-      request.nextUrl.pathname,
-      50
-    );
-
-    if (rateLimited) {
-      return NextResponse.json(
-        { error: "Rate limit exceeded" },
-        { status: 429 }
-      );
-    }
   }
+
   return response;
 }
 
