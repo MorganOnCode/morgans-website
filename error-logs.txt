@@ -1,0 +1,113 @@
+[17:40:28.854] Running build in Washington, D.C., USA (East) – iad1
+[17:40:28.948] Cloning github.com/MorganOnCode/morgans-website (Branch: master, Commit: 6a52d21)
+[17:40:29.059] Previous build caches not available
+[17:40:29.271] Cloning completed: 322.000ms
+[17:40:29.535] Running "vercel build"
+[17:40:29.880] Vercel CLI 41.2.2
+[17:40:30.519] Installing dependencies...
+[17:40:33.633] npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+[17:40:34.711] npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+[17:40:35.224] npm warn deprecated domexception@4.0.0: Use your platform's native DOMException instead
+[17:40:35.564] npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+[17:40:35.621] npm warn deprecated @types/stripe@8.0.417: This is a stub types definition. stripe provides its own type definitions, so you do not need this installed.
+[17:40:35.677] npm warn deprecated @types/testing-library__react@10.2.0: This is a stub types definition. testing-library__react provides its own type definitions, so you do not need this installed.
+[17:40:37.026] npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+[17:40:37.066] npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+[17:40:37.538] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:40:37.645] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:40:37.795] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:40:38.017] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:40:38.672] npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+[17:40:41.557] npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[17:40:49.900] 
+[17:40:49.900] added 1240 packages in 19s
+[17:40:49.900] 
+[17:40:49.900] 196 packages are looking for funding
+[17:40:49.900]   run `npm fund` for details
+[17:40:49.980] Running "npm run vercel-build"
+[17:40:50.094] 
+[17:40:50.094] > cursor-dev-kit@0.1.0 vercel-build
+[17:40:50.094] > npm run build
+[17:40:50.094] 
+[17:40:50.203] 
+[17:40:50.203] > cursor-dev-kit@0.1.0 build
+[17:40:50.203] > next build
+[17:40:50.203] 
+[17:40:50.980] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[17:40:50.980] This information is used to shape Next.js' roadmap and prioritize features.
+[17:40:50.980] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[17:40:50.980] https://nextjs.org/telemetry
+[17:40:50.980] 
+[17:40:51.036]   ▲ Next.js 15.0.0
+[17:40:51.036]   - Experiments (use with caution):
+[17:40:51.036]     · clientTraceMetadata
+[17:40:51.036] 
+[17:40:51.158]    Creating an optimized production build ...
+[17:40:51.677] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:40:51.678] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:40:51.679] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:40:51.679] [@sentry/nextjs - Node.js] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:40:51.742] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:40:51.746] [@sentry/nextjs - Node.js] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:41:15.690] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:15.690] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:15.692] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:15.693] [@sentry/nextjs - Edge] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:15.720] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:41:15.724] [@sentry/nextjs - Edge] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:41:19.848] <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (242kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+[17:41:20.010] [@sentry/nextjs - Client] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not create release. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:20.011] [@sentry/nextjs - Client] Warning: No auth token provided. Will not upload source maps. Please set the `authToken` option. You can find information on how to generate a Sentry auth token here: https://docs.sentry.io/api/auth/
+[17:41:20.019] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:41:20.021] [@sentry/nextjs - Client] Info: Sending telemetry data on issues and performance to Sentry. To disable telemetry, set `options.telemetry` to `false`.
+[17:41:29.900]  ✓ Compiled successfully
+[17:41:29.904]    Linting and checking validity of types ...
+[17:41:33.539] 
+[17:41:33.539] ./app/(website)/layout.tsx
+[17:41:33.540] 2:10  Warning: 'CommandMenu' is defined but never used.  no-unused-vars
+[17:41:33.540] 
+[17:41:33.540] ./app/actions/subscribe.ts
+[17:41:33.540] 10:6  Warning: 'SubscribeFormData' is defined but never used.  no-unused-vars
+[17:41:33.541] 
+[17:41:33.541] ./components/EmotionWheel.tsx
+[17:41:33.541] 94:9  Warning: The 'resetAll' function makes the dependencies of useEffect Hook (at line 132) change on every render. To fix this, wrap the definition of 'resetAll' in its own useCallback() Hook.  react-hooks/exhaustive-deps
+[17:41:33.541] 188:9  Warning: 'resetZoom' is assigned a value but never used.  no-unused-vars
+[17:41:33.541] 
+[17:41:33.541] ./components/ProfileImageUpload.tsx
+[17:41:33.541] 4:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:41:33.541] 
+[17:41:33.541] ./components/homepage/HomePage.tsx
+[17:41:33.541] 6:10  Warning: 'Button' is defined but never used.  no-unused-vars
+[17:41:33.541] 
+[17:41:33.541] ./components/ui/carousel.tsx
+[17:41:33.542] 21:13  Warning: 'api' is defined but never used.  no-unused-vars
+[17:41:33.542] 
+[17:41:33.542] ./components/ui/sidebar.tsx
+[17:41:33.542] 32:13  Warning: 'open' is defined but never used.  no-unused-vars
+[17:41:33.542] 34:19  Warning: 'open' is defined but never used.  no-unused-vars
+[17:41:33.542] 56:21  Warning: 'open' is defined but never used.  no-unused-vars
+[17:41:33.542] 79:27  Warning: 'value' is defined but never used.  no-unused-vars
+[17:41:33.542] 
+[17:41:33.542] ./components/website-layout/Header.tsx
+[17:41:33.542] 12:10  Warning: 'CTALogin' is defined but never used.  no-unused-vars
+[17:41:33.542] 
+[17:41:33.542] ./lib/withToast.ts
+[17:41:33.542] 20:44  Warning: 'args' is defined but never used.  no-unused-vars
+[17:41:33.542] 
+[17:41:33.542] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+[17:41:39.987] Failed to compile.
+[17:41:39.988] 
+[17:41:39.988] ./sentry.client.config.ts:11:3
+[17:41:39.988] Type error: Object literal may only specify known properties, and 'authToken' does not exist in type 'Options<BaseTransportOptions> | BrowserOptions | NodeOptions | VercelEdgeOptions'.
+[17:41:39.988] 
+[17:41:39.988] [0m [90m  9 |[39m   [0m
+[17:41:39.988] [0m [90m 10 |[39m   [90m// Add auth token if available[39m[0m
+[17:41:39.988] [0m[31m[1m>[22m[39m[90m 11 |[39m   authToken[33m:[39m process[33m.[39menv[33m.[39m[33mSENTRY_AUTH_TOKEN[39m[33m,[39m[0m
+[17:41:39.988] [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[17:41:39.988] [0m [90m 12 |[39m[0m
+[17:41:39.988] [0m [90m 13 |[39m   [90m// Add optional integrations for additional features[39m[0m
+[17:41:39.988] [0m [90m 14 |[39m   integrations[33m:[39m [[0m
+[17:41:40.131] Error: Command "npm run vercel-build" exited with 1
+[17:41:40.514] 
