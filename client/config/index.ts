@@ -15,6 +15,9 @@ import {
   Home,
   Settings,
   HelpCircle,
+  Lock,
+  Moon,
+  Smartphone,
 } from "lucide-react";
 
 export const config: AppConfig = {
@@ -179,7 +182,6 @@ export const config: AppConfig = {
           image: "/features/comprehensive-testing.png",
           icon: TestTube,
         },
-
         {
           title: "SEO Optimization",
           description:
@@ -202,11 +204,32 @@ export const config: AppConfig = {
           icon: Sun,
         },
         {
-          title: "Blog Functionality",
+          title: "Authentication",
           description:
-            "Engage your audience with our integrated blog system featuring SEO-friendly article pages. Create, manage, and publish content easily to drive traffic and establish thought leadership.",
-          image: "/features/blog-functionality.png",
-          icon: Newspaper,
+            "Secure user authentication with Supabase Auth, supporting email/password and social login methods. Includes protected routes and user profile management.",
+          image: "/features/authentication.png",
+          icon: Lock,
+        },
+        {
+          title: "Subscription Payments",
+          description:
+            "Integrated Stripe payment processing for subscription-based business models. Includes checkout, customer portal, and webhook handling.",
+          image: "/features/subscription-payments.png",
+          icon: CreditCard,
+        },
+        {
+          title: "Dark Mode Support",
+          description:
+            "Built-in dark mode with system preference detection. Provides a comfortable viewing experience in all lighting conditions.",
+          image: "/features/dark-mode.png",
+          icon: Moon,
+        },
+        {
+          title: "Responsive Design",
+          description:
+            "Fully responsive layouts that work beautifully on all devices, from mobile phones to desktop computers.",
+          image: "/features/responsive-design.png",
+          icon: Smartphone,
         },
       ],
     },
@@ -279,7 +302,6 @@ export const config: AppConfig = {
         answer:
           "While CursorDevKit comes with a pre-configured stack (Next.js, Supabase, Stripe), it's designed to be flexible. You can easily swap out or integrate additional technologies to match your specific needs. Our documentation provides guidance on customizing the stack.",
       },
-
       {
         question: "What kind of support is available if I run into issues?",
         answer:
@@ -298,11 +320,6 @@ export const config: AppConfig = {
       ctaText: "Get Started",
       ctaLink: "/login",
     },
-  },
-  blog: {
-    title: "CursorDevKit Blog",
-    description:
-      "Insights, tips, and best practices for SaaS development and growth.",
   },
   dashboard: {
     sidebarNavItems: [
@@ -335,10 +352,6 @@ export const getPlans = () => {
 
 export const getCompanyInfo = () => {
   return config.company;
-};
-
-export const getBlogConfig = () => {
-  return config.blog;
 };
 
 export const getDashboardConfig = () => {

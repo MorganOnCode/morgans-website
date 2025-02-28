@@ -93,7 +93,7 @@ export interface AppConfig {
   environment: Environment;
   auth: AuthConfig;
   homepage: HomepageConfig;
-  blog: BlogConfig;
+  blog?: BlogConfig;
   indieMaker: IndieMaker;
 }
 

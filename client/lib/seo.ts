@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { config } from "@/config";
-import type { Article, Author } from "@/types/blog";
 
 export const generateSEOMetadata = ({
   title,
@@ -71,27 +70,5 @@ export const generateStructuredData = () => {
         priceCurrency: "USD",
       },
     ],
-  };
-};
-
-export const generateArticleStructuredData = (
-  article: Article,
-  author: Author
-) => {
-  return {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: article.title,
-    datePublished: article.publishedAt,
-    dateModified: article.updatedAt,
-    author: {
-      "@type": "Person",
-      name: author.name,
-    },
-    description: article.excerpt,
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `https://${config.domainName}/blog/${article.id}`,
-    },
   };
 };
