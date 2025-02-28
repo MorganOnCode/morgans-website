@@ -1,6 +1,5 @@
-import Header from "@/components/website-layout/Header";
-import Footer from "@/components/website-layout/Footer";
 import type { ReactNode } from "react";
+import { CommandMenu } from "@/components/CommandMenu";
 
 interface LayoutProps {
   children: ReactNode;
@@ -9,9 +8,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow">{children}</main>
-      <Footer />
+      {children}
     </div>
   );
 }

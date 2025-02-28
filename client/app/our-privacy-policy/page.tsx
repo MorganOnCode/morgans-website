@@ -47,3 +47,4 @@ Please structure the policy in clear sections, use plain language, and ensure co
     </div>
   );
 }
+

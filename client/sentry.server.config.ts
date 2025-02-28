@@ -4,26 +4,12 @@
 
 import * as Sentry from "@sentry/nextjs";
 
-/* 
-Disable Sentry during CI (This environment variable is set 
-by the CI/CD pipeline via Github Actions)
-*/
-const isCI = process.env.CI === "true";
+Sentry.init({
+  dsn: "https://3b11fa1640c90606a7a4f852c4fcfcab@o4508813216186368.ingest.us.sentry.io/4508869188976640",
 
-if (!isCI) {
-  Sentry.init({
-    dsn: process.env.NEXT_PUBLIC_SENTRY_DSN!,
+  // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
+  tracesSampleRate: 1,
 
-    // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
-    tracesSampleRate: 1,
-
-    // Set the environment
-    environment: process.env.NODE_ENV || "development",
-
-    // Setting this option to true will print useful information to the console while you're setting up Sentry.
-    debug: false,
-
-    // Ignore ECONNRESET errors that commonly occur in Playwright tests
-    ignoreErrors: ["Error: aborted", /ECONNRESET/i],
-  });
-}
+  // Setting this option to true will print useful information to the console while you're setting up Sentry.
+  debug: false,
+});
