@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { useTheme } from "next-themes"
 import { Home, PenTool, Sun, Moon, Search, Heart } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import { useEffect, useState } from "react"
 import { CommandMenu } from "./CommandMenu"
 

@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useState, useEffect, useRef } from "react";
-import { PRIMARY_EMOTIONS } from "@/types/emotions";
-import { createArcPath, getTextPosition } from "@/utils/wheel-utils";
+import { PRIMARY_EMOTIONS } from "../types/emotions";
+import { createArcPath, getTextPosition } from "../utils/wheel-utils";
 
 const DIMENSIONS = {
   CENTER: 400,

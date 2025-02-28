@@ -1,6 +1,6 @@
 import React from "react";
-import { Navigation } from "@/components/Navigation";
-import EmotionWheel from "@/components/EmotionWheel";
+import { Navigation } from "../../components/Navigation";
+import EmotionWheel from "../../components/EmotionWheel";
 
 export const metadata = {
   title: "Emotions | Morgan Schofield",

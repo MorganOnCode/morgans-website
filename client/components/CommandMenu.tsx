@@ -13,8 +13,8 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/components/ui/command"
-import { DialogTitle } from "@/components/ui/dialog"
+} from "./ui/command"
+import { DialogTitle } from "./ui/dialog"
 
 export function CommandMenu() {
   const [open, setOpen] = React.useState(false)
