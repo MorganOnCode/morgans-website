@@ -12,6 +12,10 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // Add experimental configuration for Edge Runtime
+  experimental: {
+    serverComponentsExternalPackages: ['@supabase/ssr'],
+  },
 };
 
 export default withSentryConfig(withSentryConfig(nextConfig, {

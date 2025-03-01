@@ -1,8 +1,7 @@
-import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { createServerClient, type CookieOptions } from '@supabase/ssr'
+import { createServerClient } from '@supabase/ssr'
 
-export async function middleware(request: NextRequest) {
+export async function middleware(request) {
   let response = NextResponse.next({
     request: {
       headers: request.headers,
@@ -11,21 +10,21 @@ export async function middleware(request: NextRequest) {
 
   // Create a Supabase client using cookies
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    process.env.NEXT_PUBLIC_SUPABASE_URL,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
     {
       cookies: {
-        get(name: string) {
+        get(name) {
           return request.cookies.get(name)?.value;
         },
-        set(name: string, value: string, options: CookieOptions) {
+        set(name, value, options) {
           response.cookies.set({
             name,
             value,
             ...options,
           });
         },
-        remove(name: string, options: CookieOptions) {
+        remove(name, options) {
           response.cookies.set({
             name,
             value: '',
@@ -37,7 +36,7 @@ export async function middleware(request: NextRequest) {
   );
 
   // Refresh the session if it exists
-  await supabase.auth.getSession();
+  const { data: { session } } = await supabase.auth.getSession();
 
   // For API routes that need authentication, implement a simpler check
   if (
@@ -45,7 +44,6 @@ export async function middleware(request: NextRequest) {
     request.nextUrl.pathname === "/api/validate-stripe-key"
   ) {
     // Check authentication
-    const { data: { session } } = await supabase.auth.getSession();
     if (!session) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
@@ -56,4 +54,4 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
-};
+}; 
